@@ -1,0 +1,16 @@
+
+<h1>Let's Plant</h1>
+
+
+
+<p>
+  <% @plants.each do |plant| %>
+      <%= plant.photo_url %>
+      <%= plant.name.capitalize %>
+      <%= plant.description %>
+      <%= plant.price %>
+      <%= plant.plant_date %>
+      <%= plant.harvest_date %>
+  <% end %>
+</p>
+
