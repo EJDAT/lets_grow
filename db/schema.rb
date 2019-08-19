@@ -40,6 +40,7 @@ ActiveRecord::Schema.define(version: 2019_08_19_183704) do
     t.integer "price"
     t.date "plant_date"
     t.date "harvest_date"
+    t.bigint "garden_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["garden_id"], name: "index_plants_on_garden_id"
