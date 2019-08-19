@@ -5,7 +5,7 @@
 
 <p>
   <% @plants.each do |plant| %>
-      <%= plant.photo_url %>
+      <%= cl_image_tag plant.photo_url %>
       <%= plant.name.capitalize %>
       <%= plant.description %>
       <%= plant.price %>
