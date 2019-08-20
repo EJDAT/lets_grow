@@ -1,6 +1,21 @@
-<%= cl_image_tag plant.photo_url %>
-<%= plant.name.capitalize %>
-<%= plant.description %>
-<%= plant.price %>
-<%= plant.plant_date %>
-<%= plant.harvest_date %>
+
+  <img class="img_cover" src="<%= cl_image_path @plant.photo_url %>" alt="">
+
+
+
+    <div class="container-details">
+
+      <h2><%= @plant.name.capitalize %></h2>
+      <p><%= @plant.description %></p>
+
+    </div>
+
+    <div class="box">
+
+      <h3><%= @plant.price %> CHF </h3>
+      <div class="btn">Add to garden</div>
+
+    </div>
+
+
+
