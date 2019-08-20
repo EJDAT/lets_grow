@@ -4,7 +4,8 @@ class PlantsController < ApplicationController
   end
 
   def show
-    @plants = Plant.find(params[:id])
+    @plant = Plant.find(params[:id])
+    redirect to plants_show_path(plant)
   end
 end
 
