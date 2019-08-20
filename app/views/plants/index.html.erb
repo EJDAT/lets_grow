@@ -1,13 +1,33 @@
-<h1>Let's Plant</h1>
-
-
-<div class="cards">
-  <% @plants.each do |plant| %>
-    <%= link_to plants_show_path, {class: "card-over"} do %>
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path plant.photo_url %>')">
-        <%= plant.name %>
+<div class="banner" style="position: relative;">
+  <div>
+    <span id="banner-typed-text" style="top: 50%; position: absolute; z-index: 10"></span>
+  </div>
+  <div class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="carousel-category" src="https://images.unsplash.com/photo-1507484467459-0c01be16726e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="First slide">
       </div>
+      <div class="carousel-item">
+        <img class="carousel-category" src="https://images.unsplash.com/photo-1492114011589-509c6e695d8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="carousel-category" src="https://images.unsplash.com/photo-1498972385535-427d93dadf44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="Third slide">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="cards">
+    <% @plants.each do |plant| %>
+      <%= link_to plants_show_path, {class: "card-over"} do %>
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path plant.photo_url %>')">
+          <%= plant.name %>
+        </div>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
 </div>
 
