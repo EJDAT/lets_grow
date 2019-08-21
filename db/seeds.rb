@@ -1,12 +1,18 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+puts "Cleaning DB"
 Task.destroy_all
 Plant.destroy_all
+Garden.destroy_all
+User.destroy_all
+
+puts "Creating Users"
+
+User.create!(email: "max@gmail.com", password: "123456")
+User.create!(email: "alex@gmail.com", password: "123456")
+User.create!(email: "ejdat@gmail.com", password: "123456")
+
+puts "Gardens were created automatically"
+
+puts "Creating Plants"
 
 plants_list = [
   [ 1,
@@ -129,6 +135,8 @@ plants_list.each do |id, photo_url, name, description, price, plant_date, harves
   Plant.create!(id: id, photo_url: photo_url, name: name, description: description, price: price, plant_date: plant_date, harvest_date: harvest_date)
 end
 
+puts "Creating Tasks"
+
 tasks_list = [
   [ 1,
     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
@@ -166,6 +174,7 @@ tasks_list = [
 ]
 
 tasks_list.each do |plant_id, description, date, validated|
-  Task.create!( plant_id: plant_id ,description: description, date: date, validated: validated )
+  Task.create!( plant_id: plant_id ,description: description, date: date)
 end
 
+puts "Done!"
