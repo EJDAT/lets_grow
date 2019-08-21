@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'garden_plants/create'
   get 'gardens/create'
   resources :plants, only: [ :index, :show ]
   devise_for :users
