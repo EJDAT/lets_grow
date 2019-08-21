@@ -34,7 +34,7 @@
   <p>Because Garden is good for morale, to see the results of our work, to rediscover the true taste of food, to eat organic, it is good for the planet, to smell and remember, to cultivate his creativity, to share. It’s up to you!</p>
   <div class="cards">
     <% @plants.each do |plant| %>
-      <%= link_to plants_show_path, {class: "card-over"} do %>
+      <%= link_to plant_path(plant), {class: "card-over"} do %>
         <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path plant.photo_url %>')">
           <%= plant.name %>
         </div>
