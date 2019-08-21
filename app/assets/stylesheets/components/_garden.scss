@@ -1,0 +1,32 @@
+.grass{
+  padding-top: 100px;
+  background-color: #78BE41;
+  //background-image: url("grassflat.jpg");
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 100px;
+  color: #FFF685;
+  border-image: url("maybelogo.png");
+}
+
+.garden {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 200px 200px;
+  margin: 0px 100px;
+  border: solid 20px #3C2615;
+  border-radius: 8px;
+}
+
+.plot{
+  border-top: solid 4px #6E3812;
+  border-left: solid 4px #6E3812;
+  border-bottom: solid 4px #1D1510;
+  border-right: solid 4px #1D1510;
+  background-image: url("dirt.jpg");
+}
+
+
