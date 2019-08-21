@@ -13,10 +13,9 @@
   margin: 15px 0 15px 15px;
   box-shadow: 0px 0px 6px black ;
   position: absolute;
-  top: 250px;
+  top: 330px;
   left: 200px;
   width: 350px;
-  height: 450px;
   border-radius: 3px;
   box-shadow: 0 16px 40px rgba(0,0,0,0.25) ;
 }
@@ -27,5 +26,10 @@
 .btn {
   background-color: #0093c4;
   color: white;
-  opacity: 1;
+  width: 100%;
+}
+.btn:hover {
+  color: white;
+  background-color: #1782a3;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
 }
