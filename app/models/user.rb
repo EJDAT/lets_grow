@@ -4,4 +4,11 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   has_one :garden
+  after_create :create_garden
+
+  private
+
+  def create_garden
+    Garden.create!(user: self)
+  end
 end
