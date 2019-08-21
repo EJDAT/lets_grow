@@ -1,25 +1,36 @@
-<div class="banner" style="position: relative;">
-  <div class="card-trip-carousel d-flex" style="top: 50%; position: absolute; z-index: 10">
-    <span id="banner-typed-text"></span>
+<div class="banner-plants">
+  <div class="banner-card-plants" style="background-image: url(https://images.unsplash.com/photo-1495908333425-29a1e0918c5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60);">
+    <div class="carousel-plants">
+       <h2>Let's Plant</h2>
+       <p><strong>
+         <span id="banner-typed-text"></span>
+       </strong></p>
+    </div>
   </div>
   <div class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="carousel-category" src="https://images.unsplash.com/photo-1507484467459-0c01be16726e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="First slide">
+        <img class="carousel-category" src="https://images.unsplash.com/photo-1530836176759-510f58baebf4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="carousel-category" src="https://images.unsplash.com/photo-1492114011589-509c6e695d8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Second slide">
+        <img class="carousel-category" src="https://images.unsplash.com/photo-1535438414045-70dbc0464d5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="carousel-category" src="https://images.unsplash.com/photo-1498972385535-427d93dadf44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="Third slide">
+        <img class="carousel-category" src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="carousel-category" src="https://images.unsplash.com/photo-1457530378978-8bac673b8062?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="Forth slide">
+      </div>
+      <div class="carousel-item">
+        <img class="carousel-category" src="https://images.unsplash.com/photo-1563483698633-a944c5e78cf5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" alt="Fifth slide">
       </div>
     </div>
   </div>
 </div>
 
-
-
-<div class="container">
+<div class="container-index-plants">
+  <h1>Why choose <strong>Let's Plant ?</strong></h1>
+  <p>Because Garden is good for morale, to see the results of our work, to rediscover the true taste of food, to eat organic, it is good for the planet, to smell and remember, to cultivate his creativity, to share. It’s up to you!</p>
   <div class="cards">
     <% @plants.each do |plant| %>
       <%= link_to plants_show_path, {class: "card-over"} do %>
@@ -30,8 +41,6 @@
     <% end %>
   </div>
 </div>
-
-
 
 
 
