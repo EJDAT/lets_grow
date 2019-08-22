@@ -12,6 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2019_08_22_092409) do
 
+
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -40,6 +41,7 @@ ActiveRecord::Schema.define(version: 2019_08_22_092409) do
     t.string "harvest_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "logo_url"
   end
 
   create_table "tasks", force: :cascade do |t|
