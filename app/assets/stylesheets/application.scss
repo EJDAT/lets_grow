@@ -11,4 +11,9 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
-@import "components/garden"
+@import "components/garden";
+@import "components/footer";
+
+body{
+min-height: calc(100vh - 100px);
+}
