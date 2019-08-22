@@ -1,26 +1,17 @@
 <div class="grass">
   <h1> MY GARDEN <%= image_tag "maybelogo.png", alt: "carrot", width: 100 %></h1>
 
-  <div class="garden">
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
-    <span class="plot"></span>
+<div class="garden">
+  <% @garden_plants.each do |garden_plant| %>
+      <div class="plot">
+        <div class="logo" style="background-image: url(<%= cl_image_path garden_plant.plant.logo_url %>)">
+        </div>
+      </div>
+    <% end %>
+    <% @number_of_plots.times do  %>
+    <div class="plot"></div>
+    <% end %>
   </div>
 </div>
+
+
