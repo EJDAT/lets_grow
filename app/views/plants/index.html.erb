@@ -35,7 +35,7 @@
   <div class="cards">
     <% @plants.each do |plant| %>
       <%= link_to plant_path(plant), {class: "card-over"} do %>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path plant.photo_url %>')">
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path plant.logo_url %>')">
           <%= plant.name %>
         </div>
       <% end %>
