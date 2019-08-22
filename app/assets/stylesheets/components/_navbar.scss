@@ -22,3 +22,48 @@
     overflow: hidden;
     border-radius: 50%;
 }
+
+.nav-item{
+  margin-right: 30px;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.nav-item-black{
+  margin-right: 30px;
+}
+
+.nav-item-black:hover{
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+.dropdown-menu {
+  margin-top: 10px;
+  box-shadow: 0px 0px 5px rgba(50, 50, 50, .5);
+  border-radius: 5px;
+  border: none;
+  background-color: #B1B8B9;
+}
+
+.dropdown-menu-white {
+  background-color: white;
+}
+
+
+.nav-items a:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+
+.navbar-light .navbar-nav .nav-link-black {
+  color: white;
+}

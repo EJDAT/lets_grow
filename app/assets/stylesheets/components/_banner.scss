@@ -1,6 +1,6 @@
 .banner-plants {
   overflow: hidden;
-  height: 500px;
+  height: 400px;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   align-items: center;
@@ -25,11 +25,12 @@
 }
 
 .carousel-plants p {
-  font-size: 20px;
+  font-size: 25px;
   color: #86c100;;
   text-shadow: 0px 20px 20px rgb(65, 41, 33);
   margin-top: 10px;
   padding: 0 120px;
+  font-family : Merriweather;
 }
 
 .carousel-category {
