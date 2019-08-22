@@ -6,9 +6,9 @@ User.destroy_all
 
 puts "Creating Users"
 
-User.create!(id: 1, email: "max@gmail.com", password: "123456")
-User.create!(id: 2, email: "alex@gmail.com", password: "123456")
-User.create!(id: 3, email: "ejdat@gmail.com", password: "123456")
+User.create!(id: 1, email: "max@gmail.com", password: "123456", username: "max")
+User.create!(id: 2, email: "alex@gmail.com", password: "123456", username: "alex")
+User.create!(id: 3, email: "ejdat@gmail.com", password: "123456", username: "ej")
 
 puts "Gardens were created automatically"
 
