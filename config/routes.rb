@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'plants#index'
+  root to: 'pages#home'
 
   resources :plants, only: [ :index, :show ] do
     resources :garden_plants, only: [ :create ]
