@@ -6,9 +6,12 @@ User.destroy_all
 
 puts "Creating Users"
 
+
+
 User.create!(email: "max@gmail.com", password: "123456",username: "Max")
 User.create!(email: "alex@gmail.com", password: "123456", username: "Alex")
 User.create!(email: "ejdat@gmail.com", password: "123456", username: "Ej")
+
 
 puts "Gardens were created automatically"
 
