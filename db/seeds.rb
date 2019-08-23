@@ -6,9 +6,9 @@ User.destroy_all
 
 puts "Creating Users"
 
-User.create!(id: 1, email: "max@gmail.com", password: "123456",username: "Max")
-User.create!(id: 2, email: "alex@gmail.com", password: "123456", username: "Alex")
-User.create!(id: 3, email: "ejdat@gmail.com", password: "123456", username: "Ej")
+User.create!(email: "max@gmail.com", password: "123456",username: "Max")
+User.create!(email: "alex@gmail.com", password: "123456", username: "Alex")
+User.create!(email: "ejdat@gmail.com", password: "123456", username: "Ej")
 
 puts "Gardens were created automatically"
 
@@ -52,7 +52,7 @@ plants_list = [
     5,
     "Februar till May",
     "July till October",
-    "hot-pepper-512_yx5jyr chilli pepper.png"
+    "135701_tgtimr.svg"
     ],
 
   [ 6,
@@ -100,7 +100,7 @@ plants_list = [
     3,
     "May till mid. June",
     "Mid. July till mid. October",
-    "135701_tgtimr.svg"
+    "323-512_e9qbum.png"
     ],
 
   [ 11,
@@ -129,7 +129,7 @@ plants_list = [
     2,
     "Mid. April till mid. May",
     "July till mid. October",
-    "1135562_hmhteq.svg"
+    "1135562_hmhteq.png"
     ],
   [ 14,
     "1528607950896-30d92379b592_bsxnkz.jpeg",
