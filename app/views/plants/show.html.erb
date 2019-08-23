@@ -1,22 +1,21 @@
+<div class="img_cover">
 
-  <img class="img_cover" src="<%= cl_image_path @plant.photo_url %>" alt="">
-
-
-
-    <div class="container-details">
-
-      <h2><%= @plant.name.capitalize %></h2>
-      <p><%= @plant.description %></p>
-
-    </div>
+  <div class="container-details">
+    <h2><%= @plant.name.capitalize %></h2>
+    <p><%= @plant.description %></p>
+  </div>
 
     <div class="box">
-
+      <h2>Add this <%= @plant.name %> to your garden:</h2>
       <p>Time to plant: <%= @plant.plant_date %></p>
       <p>Time to harvest: <%= @plant.harvest_date %></p>
-      <%= link_to "Add to garden", plant_garden_plants_path(@plant), method: :post %>
-
+        <%= link_to plant_garden_plants_path(@plant), method: :post, class: "obtn" do %>
+          Add to garden
+        <% end %>
     </div>
+    <div class="image_show" style="background-image: url(<%= cl_image_path @plant.logo_url %>)">
+    </div>
+</div>
 
 
 
