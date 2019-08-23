@@ -6,9 +6,9 @@ User.destroy_all
 
 puts "Creating Users"
 
-User.create!(id: 1, email: "max@gmail.com", password: "123456")
-User.create!(id: 2, email: "alex@gmail.com", password: "123456")
-User.create!(id: 3, email: "ejdat@gmail.com", password: "123456")
+User.create!(email: "max@gmail.com", password: "123456",username: "Max")
+User.create!(email: "alex@gmail.com", password: "123456", username: "Alex")
+User.create!(email: "ejdat@gmail.com", password: "123456", username: "Ej")
 
 puts "Gardens were created automatically"
 
@@ -22,7 +22,7 @@ plants_list = [
     2,
     "End May till mid July",
     "August till October",
-    "101-512_d2wijr.png"
+    "1899092_mnahdg.svg"
     ],
 
 
@@ -33,7 +33,7 @@ plants_list = [
     4,
     "From mi May",
     "From July till end of September",
-    "tomatoes-512_njqywf.png"
+    "135702_sao20i.svg"
   ],
 
   [ 3,
@@ -52,7 +52,7 @@ plants_list = [
     5,
     "Februar till May",
     "July till October",
-    "hot-pepper-512_yx5jyr chilli pepper.png"
+    "135701_tgtimr.svg"
     ],
 
   [ 6,
@@ -91,7 +91,7 @@ plants_list = [
     4,
     "May mid. June",
     "August till beginning October",
-    "zucchini-8-236670_hl31yc.png"
+    "1515034_rxu3qo.svg"
     ],
   [ 10,
     "1535915190037-fe793850a5cb_i8pnfw.jpeg",
@@ -100,7 +100,7 @@ plants_list = [
     3,
     "May till mid. June",
     "Mid. July till mid. October",
-    "135701_tgtimr.svg"
+    "323-512_e9qbum.png"
     ],
 
   [ 11,
@@ -110,7 +110,7 @@ plants_list = [
     4,
     "Mid. September till end of October.",
     "June till mid July.",
-    "Organic_fresh_food_fruits_berries_strawberry-512_d6crra.png"
+    "135717_vtgada.svg"
     ],
 
   [ 12,
@@ -120,7 +120,7 @@ plants_list = [
     1,
     "April till mid. September",
     "Mid. May till end October",
-    "vegetable_food_colour-02-512_tyqbwp.png"
+    "1515026_bigopj.svg"
     ],
   [ 13,
     "1510627498534-cf7e9002facc_qcjthg.jpeg",
@@ -129,7 +129,7 @@ plants_list = [
     2,
     "Mid. April till mid. May",
     "July till mid. October",
-    "1135562_hmhteq.svg"
+    "1135562_hmhteq.png"
     ],
   [ 14,
     "1528607950896-30d92379b592_bsxnkz.jpeg",
@@ -147,7 +147,7 @@ plants_list = [
     2,
     "March till July",
     "July till November",
-    "imgbin-computer-icons-vegetable-carrot-vegetable-YBe3sAhhMi2qZFeE3TWiU94pT_mgxgp5.svg"
+    "135687_xauv3b.svg"
     ]
 ]
 
