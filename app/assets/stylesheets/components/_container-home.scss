@@ -1,0 +1,46 @@
+.containerhome{
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  min-height: calc(100vh - 80px)
+}
+
+.inner-intro{
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 350px;
+  margin-left: 50px;
+  margin-right: 700px;
+  color: #00241B;
+
+  h2 {
+  color: #00241B;
+  font-size: 60px;
+  margin-bottom: 30px;
+  }
+}
+.inner-intro p {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.bttn{
+  width: 30%;
+  background-color: #00241B;
+  color: white;
+  border-radius: 6px;
+  border: 1px solid #468315;
+  margin-top: 50px;
+  padding: 10px;
+
+}
+.bttn:hover{
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #468315;
+  transition: 0.5s background-color ease;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+

@@ -7,7 +7,7 @@
 
 
 .navbar-lewagon-white {
-  background-image: url("https://images.unsplash.com/photo-1463663090918-4d8338918803?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60");
+  background-image: url("maybelogo.png");
 }
 
 
@@ -21,4 +21,49 @@
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+}
+
+.nav-item{
+  margin-right: 30px;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.nav-item-black{
+  margin-right: 30px;
+}
+
+.nav-item-black:hover{
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+.dropdown-menu {
+  margin-top: 10px;
+  box-shadow: 0px 0px 5px rgba(50, 50, 50, .5);
+  border-radius: 5px;
+  border: none;
+  background-color: #B1B8B9;
+}
+
+.dropdown-menu-white {
+  background-color: white;
+}
+
+
+.nav-items a:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link-black {
+  color: black;
 }
