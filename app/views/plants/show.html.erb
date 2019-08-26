@@ -1,20 +1,26 @@
 <div class="img_cover">
+    <div class="container3">
 
-  <div class="container-details">
-    <h2><%= @plant.name.capitalize %></h2>
-    <p><%= @plant.description %></p>
-  </div>
-
-    <div class="box">
-      <h2>Add this <%= @plant.name %> to your garden:</h2>
-      <p>Time to plant: <%= @plant.plant_date %></p>
-      <p>Time to harvest: <%= @plant.harvest_date %></p>
-        <%= link_to plant_garden_plants_path(@plant), method: :post, class: "obtn" do %>
+      <div class= "information_plant">
+        <h2>Add <%= @plant.name %> to your garden</h2>
+        <p><i class="fas fa-seedling"></i> : <%= @plant.plant_date %></p>
+        <p><i class="far fa-calendar-check"></i> : <%= @plant.harvest_date %></p>
+        <%= link_to plant_garden_plants_path(@plant), method: :post,class: "obtn" do %>
           Add to garden
         <% end %>
+      </div>
+
+      <div class="image_show" style="background-image: url(<%= cl_image_path @plant.logo_url %>)">
+      </div>
     </div>
-    <div class="image_show" style="background-image: url(<%= cl_image_path @plant.logo_url %>)">
+
+    <div class="plant_description">
+      <h4> <%=  @plant.name%> </h4>
+      <p><%= @plant.description %></p>
     </div>
+
+
+
 </div>
 
 

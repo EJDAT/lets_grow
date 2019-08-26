@@ -21,9 +21,10 @@ plants_list = [
   [ 1,
     "bw7ddoz09yotbk3ueu5g.jpeg",
     "Beetroot",
-    "Beets, Beta vulgaris, are herbacious biennial root vegetables in the family Chenopodiaceae grown for their edible root. The plant is usually erect with a long main root and a rosette of leaves growing on stems. The leaves are oval in shape, arranged alternately on the stem and grow 20–40 cm (7.9–15.7 in) in length. The roots are usually red in color. The plant produces sessile green flowers and can reach 1–2 m (3.3–6.6 ft) in height. Beets are usually grown as annual plants, harvested after one growing season. Beets may also be referred to as beetroot, garden beet or spinach beet and originated from the Mediterranean.",
+    "Beetroot are easy to grow and ideal for anyone new to vegetable gardening.
+    SOIL: Beetroot will grow in any well-drained garden soil. ",
     2,
-    "End May till mid July",
+    "End March till mid July",
     "August till October",
     "1899092_mnahdg.svg"
     ],
@@ -32,8 +33,9 @@ plants_list = [
   [ 2,
     "1471194402529-8e0f5a675de6_kyav7y.jpeg",
     "Cherry tomatoes",
-    "La tomate cerise est l’un des fruits/légumes, les plus faciles à cultiver car elles poussent rapidement, peuvent se cultiver aussi bien en terre qu’en pot sur un balcon ou une terrasse et peuvent être récoltées tout au long de l’été au gré des besoins.",
-    4,
+    "Cherry tomatoes, are the easiest to grow out of all the tomatoes. The plant grows rapidly, so you will need to have something to support the vines once they begin to grow long. You can use either a tomato cage or wooden stakes.
+    SOIL: a sunny, well-drained part of your garden is the best for your cherry tomatoes.",
+     4,
     "From mi May",
     "From July till end of September",
     "135702_sao20i.svg"
@@ -42,16 +44,19 @@ plants_list = [
   [ 3,
     "xrzbewmyb5hps6wksacp.jpeg",
     "Cucumber",
-    "The cucumber is a creeping vine that roots in the ground and grows up trellises or other supporting frames, wrapping around supports with thin, spiraling tendrils.[1] The plant may also root in a soilless medium and will sprawl along the ground if it does not have supports. The vine has large leaves that form a canopy over the fruits. The fruit of typical cultivars of cucumber is roughly cylindrical, but elongated with tapered ends, and may be as large as 60 centimeters (24 in) long and 10 centimeters (3.9 in) in diameter.[citation needed] Botanically speaking, the cucumber is classified as a pepo, a type of botanical berry with a hard outer rind and no internal divisions. Much like tomato and squash, it is often perceived, prepared and eaten as a vegetable. Cucumber fruits consist of 95% water (see nutrition table).",
+    "The cucumber is an easy-care vegetable and they'll grow quickly.
+    SOIL: The cucumber loves a soil that has loads of sun, light and water ",
     2,
     "June",
     "August till mid October",
     "vegetable_colour-15-512_yjbukp.png"
     ],
+
   [ 5,
     "1537988634077-c99a6f91e7b5_xpax06.jpeg",
     "Chilli Pepper",
-    "Tous les piments sont originaires du sud de l’Amérique du Nord, d’Amérique centrale, et d’Amérique du Sud. Ramené en Europe par Christophe Colomb, le piment, brulant à l’origine, a été sélectionné afin d’obtenir des variétés de plus en plus douces : les poivrons. De leur côté, les piments brulants, utilisés comme condiments se répandent sur tout le globe et se diversifient également en variétés, des plus douces aux plus piquantes.",
+    "Chillies are not so difficult to grow but a lot of times people forget how sensitive they are when it comes to lack of water. If you want to add chillies to your garden make sure your chillies have plenty of water and never dry out.
+    SOIL: Like most plants they grow better in rich soils and produce more fruit but if you use plenty of mulch and compost in your garden the chillies will grow just fine.",
     5,
     "Februar till May",
     "July till October",
@@ -61,16 +66,19 @@ plants_list = [
   [ 6,
     "slack-imgs.com_e6r9xj.jpeg",
     "Fennel",
-    "(Foeniculum vulgare), perennial herb of the carrot family (Apiaceae) grown for its edible shoots, leaves, and seeds. Native to southern Europe and Asia Minor, fennel is cultivated in temperate regions worldwide and is considered an invasive species in Australia and parts of the United States. All parts of the plant are aromatic and used in flavouring, and the bulblike stem base of Florence fennel (variety azoricum) and the blanched shoots are eaten as a vegetable. The seeds and extracted oil are suggestive of anise in aroma and taste and are used for scenting soaps and perfumes and for flavouring candies, liqueurs, medicines, and foods, particularly pastries, sweet pickles, and fish.",
+    "Did you know that fennel is both a vegetable and an herb, depending on which variety you grow. it's also very easy to grow!
+    SOIL: Fennel needs a location with full sun that is close to a water source. The soil should be organically rich and on the acidic side, so amend it with compost if necessary.",
     2,
     "June till mid. july",
     "July till beginning October",
     "fennel_gisesm.png"
     ],
+
   [ 7,
     "1558717738-12f5dde036a7_gm8pqi.jpeg",
     "Leek",
-    "Is a biennial garden herb (Allium porrum synonym A. ampeloprasum porrum) of the lily family. Leeks, which are native to Mediterranean countries, have been a popular food as recorded through a history of food stretching back more than 4,000 years in the Middle East. They also are nutritious, being a rich source of vitamin C, a good source of folate (vitamin B9), and a source of iron. The leek has also been a national symbol for the Welsh.",
+    "Leeks are a flavoursome winter vegetable and not so difficult to take care of. They also don’t require much room in the garden.
+    SOIL: sunny spot in the soil that is rich and well-drained. ",
     1,
     "May till mid. June",
     "September till end December",
@@ -80,26 +88,31 @@ plants_list = [
   [ 8,
     "1474591424615-7fe467c7fac9_tqku65.jpeg",
     "Pumpkin",
-    "Pumpkin belongs to the family Cucurbitaceae and is grown primarily as a vegetable or ornamental plant. Pumpkin plants are short lived annual or perennial vines with branching tendrils and broad lobed leaves. The plant produces large yellow or orange flowers and a pepo fruit (berry with a thick rind) known as a pumpkin. The fruit can range greatly in size, from miniature pumpkins weighing a few ounces to giant pumpkins which can reach over 75 lbs (34 kg). The skin of the pumpkin is usually ribbed and is usually orange on color although some varieties are green, grey, yellow or red in color. Pumpkin plants are usually grown as annuals, surviving one growing season and the vines are capable of reaching 15 m (50 ft) in length if vines are allowed to root. ",
+    "Pumpkins are not difficult to grow. They do best when the seeds are planted directly in the ground.
+    SOIL: The pumkin is one of those veggies that prefers full sun but could do with partial shade.
+    They have deep roots and are normally quite capable of finding their own water within the soil, but in very dry periods some supplementary watering may be required.",
     4,
     "June",
     "mid. September till mid. October",
     "f80f98449ed9cc2a90b03504a249ebca-pumpkin-icon-flat-by-vexels_ihxxud.png"
     ],
+
   [ 9,
     "1495026206962-e8b160431ffe_ye4i74.jpeg",
     "Zucchini",
-    "As implied by the term summer squash, zucchini’s prime season is May to August, although they are now available year-round. Summer squash has a thin, soft skin and soft edible seeds, whereas winter squash has a hard skin.
-    The zucchini is a long, cylindrical vegetable, slightly smaller at the stem end, usually dark green in color. The flesh is a pale greenish-white and has a delicate, almost sweet flavor. Zucchini fruit grows quickly and is harvested within 2 to 7 days of flowering. Over-ripe zucchini and those past their prime can be bitter.",
+    " A lot of gardeners will tell you that zucchini grows itself. And yes it's true they almost grow by them selves but they can use a hand once in a while.
+    SOIL: The zucchini prefers acidic soil.",
     4,
     "May mid. June",
     "August till beginning October",
     "1515034_rxu3qo.svg"
     ],
+
   [ 10,
     "1535915190037-fe793850a5cb_i8pnfw.jpeg",
     "Pepper",
-    "Pepper is a tender, warm-season vegetable. Pepper plants require somewhat higher temperatures, grow more slowly and are smaller than most tomato plants. Brightly colored, sweet bell pepper varieties have recently burst onto the scene. A vast range of other garden peppers (pimiento, tabasco, cayenne, chili and paprika) may be grown for food, spices or as ornamentals.",
+    "Peppers are a breeze to grow. And they are a chock-full of good flavor and nutrition.
+    SOIL: Pepper plants require full sun to produce nice fruits. The soil should be well-draining and rich in organic matter. ",
     3,
     "May till mid. June",
     "Mid. July till mid. October",
@@ -109,7 +122,9 @@ plants_list = [
   [ 11,
     "1554196967-99af0c02a92a_dsnofu.jpeg",
     "Strawberry",
-    "The garden strawberry (or simply strawberry; Fragaria × ananassa)[1] is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness. It is consumed in large quantities, either fresh or in such prepared foods as jam, juice, pies, ice cream, milkshakes, and chocolates. Artificial strawberry flavorings and aromas are also widely used in products such as candy, soap, lip gloss, perfume, and many others.",
+    " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.
+    SOIL: strawberries love sunlight and need full sun to produce the largest yields.
+    Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
     4,
     "Mid. September till end of October.",
     "June till mid July.",
@@ -119,7 +134,9 @@ plants_list = [
   [ 12,
     "1556801712-76c8eb07bbc9_yppwm6.jpeg",
     "Lettuce",
-    "annual leaf vegetable of the aster family (Asteraceae). Most lettuce varieties are eaten fresh and are commonly served as the base of green salads. Lettuce is generally a rich source of vitamins K and A, though the nutritional quality varies, depending on the variety.",
+    "Lettuce is highly productive in limited space it's also called one of the more 'care-free' crops which might give you an
+    indication about how easy lettuce is to take care of.
+    SOIL: For lettuce the best placement is a soil drains well, and yet retains some moisture ",
     1,
     "April till mid. September",
     "Mid. May till end October",
@@ -128,7 +145,8 @@ plants_list = [
   [ 13,
     "1510627498534-cf7e9002facc_qcjthg.jpeg",
     "Cauliflower",
-    "Cauliflower is one of several vegetables in the species Brassica oleracea in the genus Brassica, which is in the family Brassicaceae. It is an annual plant that reproduces by seed. Typically, only the head is eaten – the edible white flesh sometimes called ‘crud’ (with a similar appearance to cheese curd). The cauliflower head is composed of a white inflorescence meristem. Cauliflower heads resemble those in broccoli, which differs in having flower buds as the edible portion. Brassica oleracea also includes broccoli, brussels sprouts, cabbage, collard greens, and kale, collectively called ‘cole’ crops,though they are of different cultivar groups.",
+    " The cauliflower is not the easiest to grow because it does not tolerate the heat or cold well. It requires consistently cool temperatures with temperatures.
+    SOIL: The cauliflower needs a deep rich soil and must be kept well watered throughout the season.",
     2,
     "Mid. April till mid. May",
     "July till mid. October",
@@ -137,7 +155,9 @@ plants_list = [
   [ 14,
     "1528607950896-30d92379b592_bsxnkz.jpeg",
     "Rhubarb",
-    "Rhubarb is a vegetable with a unique taste that makes it a favorite in many pies and desserts. It originated in Asia over 2,000 years ago. It was initially cultivated for its medicinal qualities, it was not until the 18th century that rhubarb was grown for culinary purposes in Britain and America. Rhubarb is often commonly mistaken to be a fruit but rhubarb is actually a close relative of garden sorrel, and is therefore a member of the vegetable family. Rhubarb is rich in vitamin C and dietary fiber.",
+    "Rhubarb is easy to grow, but needs cool weather to thrive. One thing that might be interested is that the The leaves of the rhubarb plant are poisonous, so don't try to cook them.
+    SOIL: Choose a site that is well-drained, fertile, and preferably in full sunlight.
+    Water your plant well. It needs sufficient moisture during the summer.",
     3,
     "Jan till February",
     "Mid. April till mid. June",
@@ -146,7 +166,8 @@ plants_list = [
   [ 15,
     "1472653525502-fc569e405a74_bozw2v.jpeg",
     "carrot",
-    "Rhubarb is a vegetable with a unique taste that makes it a favorite in many pies and desserts. It originated in Asia over 2,000 years ago. It was initially cultivated for its medicinal qualities, it was not until the 18th century that rhubarb was grown for culinary purposes in Britain and America. Rhubarb is often commonly mistaken to be a fruit but rhubarb is actually a close relative of garden sorrel, and is therefore a member of the vegetable family. Rhubarb is rich in vitamin C and dietary fiber.",
+    "carrots are one of the easiest vegetables to grow in the cooler climates.
+    SOIL: Carrots need very fine soil without any large stones or obstacles. The soil should be light and sandy if possible and not recently manured. Carrots are bad competitors with weeds so you want as weed free an environment as possible. ",
     2,
     "March till July",
     "July till November",
