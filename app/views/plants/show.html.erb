@@ -1,11 +1,13 @@
 <div class="img_cover">
     <div class="container3">
 
+
       <div class= "information_plant">
         <h2>Add <%= @plant.name %> to your garden</h2>
         <p><i class="fas fa-leaf"></i> : <%= @plant.plant_date %></p>
         <p><i class="far fa-calendar-check"></i> : <%= @plant.harvest_date %></p>
         <%= link_to plant_garden_plants_path(@plant), method: :post,class: "obtn" do %>
+
           Add to garden
         <% end %>
       </div>
