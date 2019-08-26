@@ -1,0 +1,16 @@
+
+<h2>Today To Do list:</h2>
+
+<div class="task_container">
+
+    <ul>
+      <% @user_tasks.each do |user_task| %>
+        <div class="task_plant">
+          <li><%= user_task.task.description %></li>
+        </div>
+       <% end %>
+    </ul>
+
+</div>
+
+

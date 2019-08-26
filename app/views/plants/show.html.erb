@@ -6,7 +6,7 @@
   </div>
 
     <div class="box">
-      <h2>Add this <%= @plant.name %> to your garden:</h2>
+      <h2>Add this to your garden:</h2>
       <p>Time to plant: <%= @plant.plant_date %></p>
       <p>Time to harvest: <%= @plant.harvest_date %></p>
         <%= link_to plant_garden_plants_path(@plant), method: :post, class: "obtn" do %>

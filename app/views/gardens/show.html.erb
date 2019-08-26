@@ -4,15 +4,16 @@
 
 <div class="garden">
   <% @garden_plants.each do |garden_plant| %>
-      <div class="plot">
+        <%= link_to user_tasks_path, {class: "plot"} do %>
         <div class="logo" style="background-image: url(<%= cl_image_path garden_plant.plant.logo_url %>)">
         </div>
-      </div>
+      <% end %>
     <% end %>
     <% @number_of_plots.times do  %>
     <div class="plot"></div>
     <% end %>
   </div>
 </div>
+
 
 
