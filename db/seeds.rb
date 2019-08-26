@@ -48,7 +48,7 @@ plants_list = [
     "August till mid October",
     "vegetable_colour-15-512_yjbukp.png"
     ],
-  [ 5,
+  [ 4,
     "1537988634077-c99a6f91e7b5_xpax06.jpeg",
     "Chilli Pepper",
     "Tous les piments sont originaires du sud de l’Amérique du Nord, d’Amérique centrale, et d’Amérique du Sud. Ramené en Europe par Christophe Colomb, le piment, brulant à l’origine, a été sélectionné afin d’obtenir des variétés de plus en plus douces : les poivrons. De leur côté, les piments brulants, utilisés comme condiments se répandent sur tout le globe et se diversifient également en variétés, des plus douces aux plus piquantes.",
@@ -58,7 +58,7 @@ plants_list = [
     "135701_tgtimr.svg"
     ],
 
-  [ 6,
+  [ 5,
     "slack-imgs.com_e6r9xj.jpeg",
     "Fennel",
     "(Foeniculum vulgare), perennial herb of the carrot family (Apiaceae) grown for its edible shoots, leaves, and seeds. Native to southern Europe and Asia Minor, fennel is cultivated in temperate regions worldwide and is considered an invasive species in Australia and parts of the United States. All parts of the plant are aromatic and used in flavouring, and the bulblike stem base of Florence fennel (variety azoricum) and the blanched shoots are eaten as a vegetable. The seeds and extracted oil are suggestive of anise in aroma and taste and are used for scenting soaps and perfumes and for flavouring candies, liqueurs, medicines, and foods, particularly pastries, sweet pickles, and fish.",
@@ -67,7 +67,7 @@ plants_list = [
     "July till beginning October",
     "fennel_gisesm.png"
     ],
-  [ 7,
+  [ 6,
     "1558717738-12f5dde036a7_gm8pqi.jpeg",
     "Leek",
     "Is a biennial garden herb (Allium porrum synonym A. ampeloprasum porrum) of the lily family. Leeks, which are native to Mediterranean countries, have been a popular food as recorded through a history of food stretching back more than 4,000 years in the Middle East. They also are nutritious, being a rich source of vitamin C, a good source of folate (vitamin B9), and a source of iron. The leek has also been a national symbol for the Welsh.",
@@ -77,7 +77,7 @@ plants_list = [
     "vegetable_colour-11-512_txltym.png"
     ],
 
-  [ 8,
+  [ 7,
     "1474591424615-7fe467c7fac9_tqku65.jpeg",
     "Pumpkin",
     "Pumpkin belongs to the family Cucurbitaceae and is grown primarily as a vegetable or ornamental plant. Pumpkin plants are short lived annual or perennial vines with branching tendrils and broad lobed leaves. The plant produces large yellow or orange flowers and a pepo fruit (berry with a thick rind) known as a pumpkin. The fruit can range greatly in size, from miniature pumpkins weighing a few ounces to giant pumpkins which can reach over 75 lbs (34 kg). The skin of the pumpkin is usually ribbed and is usually orange on color although some varieties are green, grey, yellow or red in color. Pumpkin plants are usually grown as annuals, surviving one growing season and the vines are capable of reaching 15 m (50 ft) in length if vines are allowed to root. ",
@@ -86,7 +86,7 @@ plants_list = [
     "mid. September till mid. October",
     "f80f98449ed9cc2a90b03504a249ebca-pumpkin-icon-flat-by-vexels_ihxxud.png"
     ],
-  [ 9,
+  [ 8,
     "1495026206962-e8b160431ffe_ye4i74.jpeg",
     "Zucchini",
     "As implied by the term summer squash, zucchini’s prime season is May to August, although they are now available year-round. Summer squash has a thin, soft skin and soft edible seeds, whereas winter squash has a hard skin.
@@ -96,7 +96,7 @@ plants_list = [
     "August till beginning October",
     "1515034_rxu3qo.svg"
     ],
-  [ 10,
+  [ 9,
     "1535915190037-fe793850a5cb_i8pnfw.jpeg",
     "Pepper",
     "Pepper is a tender, warm-season vegetable. Pepper plants require somewhat higher temperatures, grow more slowly and are smaller than most tomato plants. Brightly colored, sweet bell pepper varieties have recently burst onto the scene. A vast range of other garden peppers (pimiento, tabasco, cayenne, chili and paprika) may be grown for food, spices or as ornamentals.",
@@ -106,7 +106,7 @@ plants_list = [
     "323-512_e9qbum.png"
     ],
 
-  [ 11,
+  [ 10,
     "1554196967-99af0c02a92a_dsnofu.jpeg",
     "Strawberry",
     "The garden strawberry (or simply strawberry; Fragaria × ananassa)[1] is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness. It is consumed in large quantities, either fresh or in such prepared foods as jam, juice, pies, ice cream, milkshakes, and chocolates. Artificial strawberry flavorings and aromas are also widely used in products such as candy, soap, lip gloss, perfume, and many others.",
@@ -116,7 +116,7 @@ plants_list = [
     "135717_vtgada.svg"
     ],
 
-  [ 12,
+  [ 11,
     "1556801712-76c8eb07bbc9_yppwm6.jpeg",
     "Lettuce",
     "annual leaf vegetable of the aster family (Asteraceae). Most lettuce varieties are eaten fresh and are commonly served as the base of green salads. Lettuce is generally a rich source of vitamins K and A, though the nutritional quality varies, depending on the variety.",
@@ -125,7 +125,7 @@ plants_list = [
     "Mid. May till end October",
     "1515026_bigopj.svg"
     ],
-  [ 13,
+  [ 12,
     "1510627498534-cf7e9002facc_qcjthg.jpeg",
     "Cauliflower",
     "Cauliflower is one of several vegetables in the species Brassica oleracea in the genus Brassica, which is in the family Brassicaceae. It is an annual plant that reproduces by seed. Typically, only the head is eaten – the edible white flesh sometimes called ‘crud’ (with a similar appearance to cheese curd). The cauliflower head is composed of a white inflorescence meristem. Cauliflower heads resemble those in broccoli, which differs in having flower buds as the edible portion. Brassica oleracea also includes broccoli, brussels sprouts, cabbage, collard greens, and kale, collectively called ‘cole’ crops,though they are of different cultivar groups.",
@@ -134,7 +134,7 @@ plants_list = [
     "July till mid. October",
     "1135562_hmhteq.png"
     ],
-  [ 14,
+  [ 13,
     "1528607950896-30d92379b592_bsxnkz.jpeg",
     "Rhubarb",
     "Rhubarb is a vegetable with a unique taste that makes it a favorite in many pies and desserts. It originated in Asia over 2,000 years ago. It was initially cultivated for its medicinal qualities, it was not until the 18th century that rhubarb was grown for culinary purposes in Britain and America. Rhubarb is often commonly mistaken to be a fruit but rhubarb is actually a close relative of garden sorrel, and is therefore a member of the vegetable family. Rhubarb is rich in vitamin C and dietary fiber.",
@@ -143,7 +143,7 @@ plants_list = [
     "Mid. April till mid. June",
     "1135610_dmvtaw.svg"
     ],
-  [ 15,
+  [ 14,
     "1472653525502-fc569e405a74_bozw2v.jpeg",
     "carrot",
     "Rhubarb is a vegetable with a unique taste that makes it a favorite in many pies and desserts. It originated in Asia over 2,000 years ago. It was initially cultivated for its medicinal qualities, it was not until the 18th century that rhubarb was grown for culinary purposes in Britain and America. Rhubarb is often commonly mistaken to be a fruit but rhubarb is actually a close relative of garden sorrel, and is therefore a member of the vegetable family. Rhubarb is rich in vitamin C and dietary fiber.",
@@ -163,45 +163,123 @@ puts "Creating Tasks"
 
 tasks_list = [
   [ 1,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
-    "Monday evening",
-    false],
-
-  [ 2,
-    "Hey there, Water the plant!",
-    "Every evening",
-    false],
-
-  [ 3,
-    "Hey you, go and check your plant for any bad leaves.",
-    "Wednesday",
-    false],
-
-  [ 3,
-    "Take out the weed around the plant",
-    "Friday",
-    false],
-
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+  ],
   [ 1,
-    "Coucou, Check the soil of your plant",
-    "thursday",
-    false],
+    "Hi, Don't forget to water your beetroots!"
+  ],
+  [ 1,
+    "Hi, Check if the beetroot plants need a thin (when there around 2 inches high) you just pinch them off."
+  ],
+  [ 1,
+    "Take out the weed around the plant"
+  ],
+  [ 2,
+    "Hey there, give your tomato plant a bit of water!"
+  ],
+  [ 2,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.!"
+  ],
+  [ 2,
+    " Hello, You should Remove the dead, diseased or just unnecessary leaves and stems from the tomato plant "
+  ],
+  [ 2,
+    "Take out the weed around the plant"
+  ],
+  [ 3,
+    "Hey, I think your cucumber plant might be thursty."
+  ],
+  [ 3,
+    "Thin cucumber plants"
+  ],
+  [ 3,
+    "Take out the weed around the plant"
+  ],
+  [ 3,
+     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+  ],
+  [ 4,
+    "Coucou, Don't forget to water your Chilli pepper plant!"
+  ],
+  [ 4,
+    "Take out the weed around the plant"
+  ],
+  [ 5,
+    "Hey, I think your fennel plant might be thursty!"
+  ],
+  [5,
+    "Check if blooms begin to appear on your fennel plant, you can either pinch them to prevent the plant from going to seed, or just go ahead and let it flower, to attract beneficial insects"
+  ],
+  [5,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+  ],
+  [5,
+    "Take out the weed around the plant"
+  ],
+  [6,
+    "Hey, Give some water to your leek plant."
+  ],
+  [6,
+    "Take out the weed around the plant"
+  ],
 
-    [ 2,
-    "Take out the weed around the plant",
-    "Wednesday",
-    false],
-
-     [ 1,
-    "Give love to your plant!",
-    "Wednesday",
-    false]
+  [6,
+    "  After a few weeks, you can improve the length of white stem by blanching the plant above ground. Wrap about 10cm (4in) of the base of the plant in newspaper and then pull dry soil around the stem to exclude light. Be careful not to introduce soil between the leaves as this can make for gritty eating."
+  ],
+  [7,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+  ],
+  [8,
+    "Hey, Give some water to your zucchini plant."
+  ],
+  [8,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+  ],
+  [9,
+    "Hey, Give some water to your pepper plant."
+  ],
+  [9,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+  ],
+  [10,
+    "Hey, Give some water to your strawberry plant."
+  ],
+  [10,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+  ],
+  [11,
+    "Hey, Give some water to your lettuce plant."
+  ],
+  [11,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+  ],
+  [12,
+    "Hey, Give some water to your cauliflower plant."
+  ],
+  [12,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+  ],
+  [13,
+    "Hey, Give some water to your rhubarb plant."
+  ],
+  [13,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+  ],
+  [14,
+    "Hey, Give some water to your carrot plant."
+  ],
+  [14,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+  ]
 ]
 
-tasks_list.each do |plant_id, description, date, validated|
 
-  Task.create!( plant_id: plant_id ,description: description, date: date)
+tasks_list.each do |plant_id, description|
+
+  Task.create!( plant_id: plant_id ,description: description )
 
 end
+
+puts "Creating Users-tasks"
 
 puts "Done!"
