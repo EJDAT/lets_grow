@@ -10,6 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+
+
 ActiveRecord::Schema.define(version: 2019_08_27_074045) do
 
   # These are extensions that must be enabled in order to support this database
@@ -49,11 +51,12 @@ ActiveRecord::Schema.define(version: 2019_08_27_074045) do
     t.bigint "plant_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "logo_url"
     t.index ["plant_id"], name: "index_tasks_on_plant_id"
   end
 
   create_table "user_tasks", force: :cascade do |t|
-    t.boolean "validated"
+    t.boolean "validated", default: false
     t.bigint "user_id"
     t.bigint "task_id"
     t.datetime "created_at", null: false

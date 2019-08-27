@@ -1,20 +1,62 @@
 .task_plant {
-  background-color: rgb(230, 230, 230);
+  border-radius: 5px;
   padding: 10px;
   margin: 20px;
   width: 460px;
   list-style: none;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25) ;
+  background-color: #CDE77F;
+  padding: 20px;
 }
 
 .task_container {
-  border: 1px solid rgb(200, 200, 220);
+  border-radius: 5px;
   margin: 0 auto;
   width: 500px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(100px, auto);
+  margin-bottom: 20px;
+  background-color:#65B891;
 }
 
 ul {
   padding: 0;
+  margin: 0;
+}
+
+.log {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+.tasks_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  margin: 100px 0 100px 0;
+}
+.main_container h2{
+  text-align: center;
+  color: white;
+  margin-top: 18px;
+}
+
+.main_container h1{
+  text-align: center;
+  color:#3D885B;
+  margin-top: 100px;
+}
+
+i {
+  margin-top:20px;
+}
+
+.main_container p{
+
+  color: #3D885B;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.task_plant:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25) ;
 }
