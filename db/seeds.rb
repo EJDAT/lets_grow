@@ -1,8 +1,10 @@
 puts "Cleaning DB"
+UserTask.destroy_all
 Task.destroy_all
 Plant.destroy_all
 Garden.destroy_all
 User.destroy_all
+
 
 puts "Creating Users"
 
@@ -163,123 +165,214 @@ puts "Creating Tasks"
 
 tasks_list = [
   [ 1,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+    "sow the beetroot seeds",
+    "1899092_mnahdg.svg"
   ],
   [ 1,
-    "Hi, Don't forget to water your beetroots!"
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "1899092_mnahdg.svg"
   ],
   [ 1,
-    "Hi, Check if the beetroot plants need a thin (when there around 2 inches high) you just pinch them off."
+    "Hi, Don't forget to water your beetroots!",
+    "1899092_mnahdg.svg"
   ],
   [ 1,
-    "Take out the weed around the plant"
+    "Hi, Check if the beetroot plants need a thin (when there around 2 inches high) you just pinch them off.",
+    "1899092_mnahdg.svg"
+  ],
+  [ 1,
+    "Take out the weed around the plant",
+    "1899092_mnahdg.svg"
   ],
   [ 2,
-    "Hey there, give your tomato plant a bit of water!"
+    "sow the tomato seeds",
+    "135702_sao20i.svg"
   ],
   [ 2,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.!"
+    "Hey there, give your tomato plant a bit of water!",
+    "135702_sao20i.svg"
   ],
   [ 2,
-    " Hello, You should Remove the dead, diseased or just unnecessary leaves and stems from the tomato plant "
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.!",
+    "135702_sao20i.svg"
   ],
   [ 2,
-    "Take out the weed around the plant"
+    " Hello, You should Remove the dead, diseased or just unnecessary leaves and stems from the tomato plant ",
+    "135702_sao20i.svg"
+  ],
+  [ 2,
+    "Take out the weed around the plant",
+    "135702_sao20i.svg"
   ],
   [ 3,
-    "Hey, I think your cucumber plant might be thursty."
+    "sow the cucumber seeds",
+    "vegetable_colour-15-512_yjbukp.png"
   ],
   [ 3,
-    "Thin cucumber plants"
+    "Hey, I think your cucumber plant might be thursty.",
+    "vegetable_colour-15-512_yjbukp.png"
   ],
   [ 3,
-    "Take out the weed around the plant"
+    "Thin cucumber plants",
+    "vegetable_colour-15-512_yjbukp.png"
   ],
   [ 3,
-     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+    "Take out the weed around the plant",
+    "vegetable_colour-15-512_yjbukp.png"
+  ],
+  [ 3,
+     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+     "vegetable_colour-15-512_yjbukp.png"
   ],
   [ 4,
-    "Coucou, Don't forget to water your Chilli pepper plant!"
+    "sow the chilli seeds",
+    "135701_tgtimr.svg"
   ],
   [ 4,
-    "Take out the weed around the plant"
+    "Hello, Don't forget to water your chilli pepper plant!",
+    "135701_tgtimr.svg"
+  ],
+  [ 4,
+    "Take out the weed around the plant",
+    "135701_tgtimr.svg"
   ],
   [ 5,
-    "Hey, I think your fennel plant might be thursty!"
+    "sow the fennel seeds",
+    "fennel_gisesm.png"
+  ],
+  [ 5,
+    "Hey, I think your fennel plant might be thursty!",
+    "fennel_gisesm.png"
   ],
   [5,
-    "Check if blooms begin to appear on your fennel plant, you can either pinch them to prevent the plant from going to seed, or just go ahead and let it flower, to attract beneficial insects"
+    "Check if blooms begin to appear on your fennel plant, you can either pinch them to prevent the plant from going to seed, or just go ahead and let it flower, to attract beneficial insects",
+    "fennel_gisesm.png"
   ],
   [5,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "fennel_gisesm.png"
   ],
   [5,
-    "Take out the weed around the plant"
+    "Take out the weed around the plant",
+    "fennel_gisesm.png"
+  ],
+  [ 6,
+    "sow the leek seeds",
+    "vegetable_colour-11-512_txltym.png"
   ],
   [6,
-    "Hey, Give some water to your leek plant."
+    "Hey, Give some water to your leek plant.",
+    "vegetable_colour-11-512_txltym.png"
   ],
   [6,
-    "Take out the weed around the plant"
+    "Take out the weed around the plant",
+    "vegetable_colour-11-512_txltym.png"
   ],
 
   [6,
-    "  After a few weeks, you can improve the length of white stem by blanching the plant above ground. Wrap about 10cm (4in) of the base of the plant in newspaper and then pull dry soil around the stem to exclude light. Be careful not to introduce soil between the leaves as this can make for gritty eating."
+    "  After a few weeks, you can improve the length of white stem by blanching the plant above ground. Wrap about 10cm (4in) of the base of the plant in newspaper and then pull dry soil around the stem to exclude light. Be careful not to introduce soil between the leaves as this can make for gritty eating.",
+    "vegetable_colour-11-512_txltym.png"
+  ],
+  [ 7,
+    "sow the pumpkin seeds",
+    "f80f98449ed9cc2a90b03504a249ebca-pumpkin-icon-flat-by-vexels_ihxxud.png"
   ],
   [7,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "f80f98449ed9cc2a90b03504a249ebca-pumpkin-icon-flat-by-vexels_ihxxud.png"
+  ],
+  [ 8,
+    "sow the zucchini seeds",
+    "1515034_rxu3qo.svg"
   ],
   [8,
-    "Hey, Give some water to your zucchini plant."
+    "Hey, Give some water to your zucchini plant.",
+    "1515034_rxu3qo.svg"
   ],
   [8,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "1515034_rxu3qo.svg"
+  ],
+[ 9,
+    "sow the pepper seeds",
+    "323-512_e9qbum.png"
   ],
   [9,
-    "Hey, Give some water to your pepper plant."
+    "Hey, Give some water to your pepper plant.",
+    "323-512_e9qbum.png"
   ],
   [9,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "323-512_e9qbum.png"
+  ],
+  [ 10,
+    "sow the strawberry seeds",
+    "135717_vtgada.svg"
   ],
   [10,
-    "Hey, Give some water to your strawberry plant."
+    "Hey, Give some water to your strawberry plant.",
+    "135717_vtgada.svg"
   ],
   [10,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "135717_vtgada.svg"
+  ],
+  [ 11,
+    "sow the lettuce seeds",
+    "1515026_bigopj.svg"
   ],
   [11,
-    "Hey, Give some water to your lettuce plant."
+    "Hey, Give some water to your lettuce plant.",
+    "1515026_bigopj.svg"
   ],
   [11,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "1515026_bigopj.svg"
+  ],
+  [ 12,
+    "sow the cauliflower seeds",
+    "1135562_hmhteq.png"
   ],
   [12,
-    "Hey, Give some water to your cauliflower plant."
+    "Hey, Give some water to your cauliflower plant.",
+    "1135562_hmhteq.png"
   ],
   [12,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "1135562_hmhteq.png"
+  ],
+  [ 13,
+    "sow the rhubarb seeds",
+    "1135610_dmvtaw.svg"
   ],
   [13,
-    "Hey, Give some water to your rhubarb plant."
+    "Hey, Give some water to your rhubarb plant.",
+    "1135610_dmvtaw.svg"
   ],
   [13,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "1135610_dmvtaw.svg"
+  ],
+  [ 14,
+    "sow the carrot seeds",
+    "135687_xauv3b.svg"
   ],
   [14,
-    "Hey, Give some water to your carrot plant."
+    "Hey, Give some water to your carrot plant.",
+    "135687_xauv3b.svg"
   ],
   [14,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off."
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "135687_xauv3b.svg"
   ]
 ]
 
 
-tasks_list.each do |plant_id, description|
+tasks_list.each do |plant_id, description, logo_url|
 
-  Task.create!( plant_id: plant_id ,description: description )
+  Task.create!( plant_id: plant_id ,description: description, logo_url: logo_url )
 
 end
 
-puts "Creating Users-tasks"
 
 puts "Done!"

@@ -1,16 +1,47 @@
+<div class="main_container">
+  <h1>Today To Do list:</h1>
+  <%= link_to plants_path, class: "abtn" do %>
+  pick
+<% end %>
 
-<h2>Today To Do list:</h2>
+<div class="tasks_container">
 
-<div class="task_container">
 
+  <% @user_tasks_by_plant.each do |plant, user_tasks| %>
+  <div class="task_container">
+    <h2><%= plant.name %></h2>
     <ul>
-      <% @user_tasks.each do |user_task| %>
+      <% user_tasks.each do |user_task| %>
         <div class="task_plant">
-          <li><%= user_task.task.description %></li>
+          <li>
+            <p><%= user_task.task.description %></p>
+            <div class="log" style="background-image: url(<%= cl_image_path user_task.task.logo_url %>)">
+            </div>
+
+              <%= link_to user_task_mark_as_done_user_tasks_path(user_task), method: :put do %>
+                  <i class="fas fa-check"></i>
+              <% end %>
+          </li>
         </div>
-       <% end %>
-    </ul>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
