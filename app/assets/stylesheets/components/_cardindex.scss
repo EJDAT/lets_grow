@@ -1,82 +1,42 @@
-.cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
-  display: flex;
-  justify-content: center;
-}
-
-// Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
-}
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .cards {
-    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
-  }
-}
-
-
-.banner {
+.banner-index {
   background-size: cover;
   background-position: center;
-  padding: 50px 0;
+  padding: 50px 50px;
+  min-height: 100vh;
+  background-attachment: fixed;
 }
 
-.banner h1 {
+.banner-index h1 {
   margin: 0;
-  color: white;
+  color: black;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 32px;
   font-weight: bold;
-  font-family: Nexa-bold;
+  font-family: 'Karla', sans-serif;
 }
 
-.banner p {
+.banner-index p {
   font-size: 20px;
-  color: white;
-  opacity: .7;
+  color: black;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-family: Nexa-bold;
+  font-family: 'Karla', sans-serif;
 }
 
-.card-category {
+.card-category-index {
   background-size: cover;
   background-position: center;
   height: 180px;
-  width: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-size: 24px;
   font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin-bottom: 20px;
-}
-
-.container {
-  display: grid;
 }
 
 .carousel-indicators {
@@ -111,7 +71,17 @@
   list-style: none;
 }
 
-.far {
+.fas {
   color: white;
   font-size: 30px;
+}
+
+.container-index{
+  display: grid;
+  grid-template-columns: 25% auto;
+  align-items: flex-start;
+  margin: 50px 50px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
 }
