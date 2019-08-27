@@ -26,82 +26,110 @@
         <div class="carousel-item active">
           <div class="row">
             <div class="col-md-4">
+              <%= link_to plant_path(Plant.find(1)), {class: "card-over"} do %>
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.first.logo_url %>')">
                 <%= Plant.first.name %>
               </div>
+              <% end %>
             </div>
+            <%= link_to plant_path(Plant.find(2)), {class: "card-over"} do %>
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.second.logo_url %>')">
                 <%= Plant.second.name %>
               </div>
+              <% end %>
             </div>
+            <%= link_to plant_path(Plant.find(3)), {class: "card-over"} do %>
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.third.logo_url %>')">
                 <%= Plant.third.name %>
               </div>
+              <% end %>
             </div>
+            <%= link_to plant_path(Plant.find(4)), {class: "card-over"} do %>
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.fourth.logo_url %>')">
                 <%= Plant.fourth.name %>
               </div>
+              <% end %>
             </div>
+            <%= link_to plant_path(Plant.find(5)), {class: "card-over"} do %>
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.fifth.logo_url %>')">
                 <%= Plant.fifth.name %>
               </div>
+              <% end %>
             </div>
+            <%= link_to plant_path(Plant.find(14)), {class: "card-over"} do %>
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.find(14).logo_url %>')">
                 <%= Plant.find(14).name %>
               </div>
+              <% end %>
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row">
+            <%= link_to plant_path(Plant.find(6)), {class: "card-over"} do %>
             <div class="col-md-4">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.find(6).logo_url %>')">
                 <%= Plant.find(6).name %>
               </div>
+              <% end %>
             </div>
+            <%= link_to plant_path(Plant.find(7)), {class: "card-over"} do %>
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.find(7).logo_url %>')">
                 <%= Plant.find(7).name %>
               </div>
+              <% end %>
             </div>
+            <%= link_to plant_path(Plant.find(8)), {class: "card-over"} do %>
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.find(8).logo_url %>')">
                 <%= Plant.find(8).name %>
               </div>
+              <% end %>
             </div>
+            <%= link_to plant_path(Plant.find(9)), {class: "card-over"} do %>
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.find(9).logo_url %>')">
                 <%= Plant.find(9).name %>
               </div>
+              <% end %>
             </div>
+            <%= link_to plant_path(Plant.find(13)), {class: "card-over"} do %>
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.find(13).logo_url %>')">
                 <%= Plant.find(13).name %>
               </div>
+              <% end %>
             </div>
+            <%= link_to plant_path(Plant.find(10)), {class: "card-over"} do %>
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.find(10).logo_url %>')">
                 <%= Plant.find(10).name %>
               </div>
+              <% end %>
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row">
+            <%= link_to plant_path(Plant.find(11)), {class: "card-over"} do %>
             <div class="col-md-4">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.find(11).logo_url %>')">
                 <%= Plant.find(11).name %>
               </div>
+              <% end %>
             </div>
+            <%= link_to plant_path(Plant.find(12)), {class: "card-over"} do %>
             <div class="col-md-4 clearfix d-none d-md-block">
               <div class="card-category-index" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url('<%= cl_image_path Plant.find(12).logo_url %>')">
                 <%= Plant.find(12).name %>
               </div>
+              <% end %>
             </div>
           </div>
         </div>
