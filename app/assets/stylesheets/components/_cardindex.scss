@@ -1,0 +1,89 @@
+.banner-index {
+  background-size: cover;
+  background-position: center;
+  padding: 40px 50px;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.banner-index h1 {
+  margin: 0;
+  color: black;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Karla', sans-serif;
+}
+
+.banner-index p {
+  font-size: 30px;
+  color: black;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-family: 'Karla', sans-serif;
+}
+
+.card-category-index {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  left: 0;
+  z-index: 15;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.controls-top {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  left: 0;
+  z-index: 15;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: space-evenly;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.fas {
+  color: white;
+  font-size: 40px;
+}
+
+.container-index{
+  display: grid;
+  grid-template-columns: 30% auto;
+  align-items: flex-start;
+  margin: 50px 50px;
+  align-items: baseline;
+}
+
+.mb-4, .my-4 {
+  border-top: 0;
+}
