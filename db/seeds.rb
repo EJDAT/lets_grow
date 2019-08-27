@@ -60,7 +60,7 @@ plants_list = [
     "a sunny, well-drained part of your garden is the best for your cherry tomatoes.",
      4,
      {"jan": false,
-    "feb": false,’
+    "feb": false,
     "mar": false,
     "apr": true,
     "may": true,
