@@ -1,7 +1,7 @@
 .banner-index {
   background-size: cover;
   background-position: center;
-  padding: 50px 50px;
+  padding: 40px 50px;
   min-height: 100vh;
   background-attachment: fixed;
 }
@@ -10,13 +10,13 @@
   margin: 0;
   color: black;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   font-family: 'Karla', sans-serif;
 }
 
 .banner-index p {
-  font-size: 20px;
+  font-size: 30px;
   color: black;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-family: 'Karla', sans-serif;
@@ -58,7 +58,7 @@
 .controls-top {
   position: absolute;
   right: 0;
-  top: -40px;
+  top: -50px;
   left: 0;
   z-index: 15;
   display: -webkit-box;
@@ -73,15 +73,17 @@
 
 .fas {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .container-index{
   display: grid;
-  grid-template-columns: 25% auto;
+  grid-template-columns: 30% auto;
   align-items: flex-start;
   margin: 50px 50px;
-  display: flex;
   align-items: baseline;
-  justify-content: space-evenly;
+}
+
+.mb-4, .my-4 {
+  border-top: 0;
 }
