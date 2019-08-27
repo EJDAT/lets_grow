@@ -56,7 +56,7 @@ plants_list = [
     "Chillies are not so difficult to grow but a lot of times people forget how sensitive they are when it comes to lack of water. If you want to add chillies to your garden make sure your chillies have plenty of water and never dry out.",
     "Like most plants they grow better in rich soils and produce more fruit but if you use plenty of mulch and compost in your garden the chillies will grow just fine.",
     5,
-    "Februar till May",
+    "February till May",
     "July till October",
     "135701_tgtimr.svg"
     ],
@@ -171,7 +171,7 @@ plants_list = [
     "Choose a site that is well-drained, fertile, and preferably in full sunlight.
     Water your plant well. It needs sufficient moisture during the summer.",
     3,
-    "Jan till February",
+    "January till February",
     "Mid. April till mid. June",
     "1135610_dmvtaw.svg"
     ],
