@@ -94,13 +94,39 @@ plants_list = [
     "The cucumber is an easy-care vegetable and they'll grow quickly.",
     "The cucumber loves a soil that has loads of sun, light and water ",
     2,
+    {"jan": false,
+    "feb": false,
+    "mar": false,
+    "apr": false,
+    "may": false,
+    "jun": true,
+    "jul": false,
+    "aug": false,
+    "sep": false,
+    "oct": false,
+    "nov": false,
+    "dec": false,
+    },
+
+    {"jan": false,
+    "feb": false,
+    "mar": false,
+    "apr": false,
+    "may": false,
+    "jun": false,
+    "jul": false,
+    "aug": true,
+    "sep": true,
+    "oct": true,
+    "nov": false,
+    "dec": false,
+    },
     "June",
     "August till mid October",
     "vegetable_colour-15-512_yjbukp.png"
     ],
 
   [ 4,
-    "1537988634077-c99a6f91e7b5_xpax06.jpeg",
 
     "Chilli Pepper",
     "Chillies are not so difficult to grow but a lot of times people forget how sensitive they are when it comes to lack of water. If you want to add chillies to your garden make sure your chillies have plenty of water and never dry out.",
@@ -138,7 +164,6 @@ plants_list = [
     ],
 
   [ 5,
-    "slack-imgs.com_e6r9xj.jpeg",
 
     "Fennel",
     "Did you know that fennel is both a vegetable and an herb, depending on which variety you grow. it's also very easy to grow!",
@@ -175,7 +200,6 @@ plants_list = [
     ],
 
   [ 6,
-    "1558717738-12f5dde036a7_gm8pqi.jpeg",
 
     "Leek",
     "Leeks are a flavoursome winter vegetable and not so difficult to take care of. They also don’t require much room in the garden.",
@@ -212,7 +236,6 @@ plants_list = [
 
 
   [ 7,
-    "1474591424615-7fe467c7fac9_tqku65.jpeg",
 
     "Pumpkin",
     "Pumpkins are not difficult to grow. They do best when the seeds are planted directly in the ground.",
@@ -249,7 +272,6 @@ plants_list = [
     ],
 
   [ 8,
-    "1495026206962-e8b160431ffe_ye4i74.jpeg",
 
     "Zucchini",
     " A lot of gardeners will tell you that zucchini grows itself. And yes it's true they almost grow by them selves but they can use a hand once in a while.",
@@ -286,7 +308,6 @@ plants_list = [
     ],
 
   [ 9,
-    "1535915190037-fe793850a5cb_i8pnfw.jpeg",
 
     "Pepper",
     "Peppers are a breeze to grow. They are a chock-full of good flavor and nutrition.",
@@ -299,7 +320,6 @@ plants_list = [
 
 
   [ 10,
-    "1554196967-99af0c02a92a_dsnofu.jpeg",
 
     "Strawberry",
     " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
@@ -337,7 +357,6 @@ plants_list = [
 
 
   [ 11,
-    "1556801712-76c8eb07bbc9_yppwm6.jpeg",
 
     "Lettuce",
     "Lettuce is highly productive in limited space it's also called one of the more 'care-free' crops which might give you an
@@ -374,7 +393,6 @@ plants_list = [
     ],
 
   [ 12,
-    "1510627498534-cf7e9002facc_qcjthg.jpeg",
 
     "Cauliflower",
     " The cauliflower is not the easiest to grow because it does not tolerate the heat or cold well. It requires consistently cool temperatures.",
@@ -410,7 +428,6 @@ plants_list = [
     ],
 
   [ 13,
-    "1528607950896-30d92379b592_bsxnkz.jpeg",
 
     "Rhubarb",
     "Rhubarb is easy to grow, but needs cool weather to thrive. One thing that might be interested is that the The leaves of the rhubarb plant are poisonous, so don't try to cook them.",
@@ -447,7 +464,6 @@ plants_list = [
     ],
 
   [ 14,
-    "1472653525502-fc569e405a74_bozw2v.jpeg",
 
     "carrot",
     "carrots are one of the easiest vegetables to grow in the cooler climates.",
