@@ -6,7 +6,7 @@
 
       <div class= "information_plant">
 
-        <p> Best to plant in:
+        <p> <strong>Best to plant in :</strong>
           <table>
             <tr>
              <% @months.each do |month| %>
@@ -15,7 +15,7 @@
             </tr>
           </table>
         </p>
-        <p> Harvest in :
+        <p> <strong>Harvest in :</strong>
           <table>
             <tr>
              <% @months.each do |month| %>
@@ -26,21 +26,22 @@
         </p>
 
       </div>
-      <div>
+      <div class="image_and_button">
         <div class="image_show" style="background-image: url(<%= cl_image_path @plant.logo_url %>)">
         </div>
 
         <%= link_to plant_garden_plants_path(@plant), method: :post,class: "obtn" do %>
 
-          Add to my to get personalized info
+
+          Add to my personalized garden
         <% end %>
       </div>
     </div>
 
     <div class="plant_description">
-      <p>General info:</p>
+      <p> <strong>General info :</strong></p>
        <p> <%= @plant.description %></p>
-       <p>Sowing information:</p>
+       <p> <strong>Sowing information :</strong></p>
         <p><%= @plant.description_details %></p>
     </div>
 </div>
