@@ -10,24 +10,17 @@
   display: flex;
   align-content: flex-start;
   justify-content: space-between;
-  padding: 150px 0 15px 15px;
+  padding: 30px 0 15px 15px;
   margin: 15px 0 15px 15px;
 }
+
 .box p {
   margin-top: 20px;
-}
-.img_cover {
-  background-color: #CEFFC8;
-}
-
-.img_cover h2{
-  text-align: center;
-  color: white;
 }
 
 .information_plant{
   background-color: #65b891;
-  padding: 30px;
+  padding: 55px 35px 15px 25px;
   margin: 15px 0 15px 15px;
   box-shadow: 0px 0px 6px black ;
   border-radius: 10px;
@@ -41,7 +34,8 @@
   width: 250px;
   height: 250px;
   background-size: cover;
-  margin-right: 200px;
+  margin-right: 250px;
+  margin-bottom: 50px;
 }
 
 .plant_description{
@@ -50,7 +44,53 @@
   filter: alpha(opacity=60);
   border-radius: 10px;
   box-shadow: 0 16px 40px rgba(0,0,0,0.25);
-  padding: 35px;
-  margin: 50px;
+  padding: 30px 20px 15px 20px;
+  margin: 30px 40px 15px 40px;
+}
+
+.colored {
+  background-color: #3E885B;
+}
+
+td {
+  //border: 1px solid #2E4057;
+  width: 45px;
+  background-color: #82D173;
+  text-align: center;
+  font-size: 17px;
+}
+
+td p{
+  position: center;
 
 }
+
+tr:first-child td:first-child {
+  border-top-left-radius: 10px;
+}
+tr:first-child td:last-child {
+ border-top-right-radius: 10px;
+}
+tr:last-child td:first-child {
+ border-bottom-left-radius: 10px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+.title_show{
+  padding-top: 50px;
+}
+
+.title_show h2{
+  font-size: 85px;
+  font-weight: bold;
+  color: #3E885B;
+  text-align: center;
+}
+
+.image_and_button{
+  margin-bottom: 20px;
+}
+
+

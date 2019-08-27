@@ -2,6 +2,13 @@
     vertical-align: middle;
     border-style: none;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
+    background-color: #CEFFC8;
+    padding-bottom: 100px;
+
+    h2 {
+      text-align: center;
+      color: white;
+    }
 }

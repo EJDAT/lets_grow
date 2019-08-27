@@ -1,25 +1,48 @@
 <div class="img_cover">
+  <div class="title_show">
+   <h2><%= @plant.name %></h2>
+  </div>
     <div class="container3">
 
-
       <div class= "information_plant">
-        <h2>Add <%= @plant.name %> to your garden</h2>
-        <p><i class="fas fa-leaf"></i> : <%= @plant.plant_date %></p>
-        <p><i class="far fa-calendar-check"></i> : <%= @plant.harvest_date %></p>
+
+        <p> <strong>Best to plant in :</strong>
+          <table>
+            <tr>
+             <% @months.each do |month| %>
+                <td class="<%= 'colored' if @plant.plant_date[month] %>"><%= month %></td>
+              <% end %>
+            </tr>
+          </table>
+        </p>
+        <p> <strong>Harvest in :</strong>
+          <table>
+            <tr>
+             <% @months.each do |month| %>
+                <td class="<%= 'colored' if @plant.harvest_date[month] %>"><%= month %></td>
+              <% end %>
+            </tr>
+          </table>
+        </p>
+
+      </div>
+      <div class="image_and_button">
+        <div class="image_show" style="background-image: url(<%= cl_image_path @plant.logo_url %>)">
+        </div>
+
         <%= link_to plant_garden_plants_path(@plant), method: :post,class: "obtn" do %>
 
-          Add to garden
-        <% end %>
-      </div>
 
-      <div class="image_show" style="background-image: url(<%= cl_image_path @plant.logo_url %>)">
+          Add to my personalized garden
+        <% end %>
       </div>
     </div>
 
     <div class="plant_description">
-      <h4> <%=  @plant.name%> </h4>
-      <p><i class="fas fa-info"></i> <%= @plant.description %></p>
-      <p><i class="fas fa-seedling"></i> <%= @plant.description_details %></p>
+      <p> <strong>General info :</strong></p>
+       <p> <%= @plant.description %></p>
+       <p> <strong>Sowing information :</strong></p>
+        <p><%= @plant.description_details %></p>
     </div>
 </div>
 

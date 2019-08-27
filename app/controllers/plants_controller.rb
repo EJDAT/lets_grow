@@ -7,6 +7,6 @@ class PlantsController < ApplicationController
 
   def show
     @plant = Plant.find(params[:id])
+    @months = %w[jan feb mar apr may jun jul aug sep oct nov dec]
   end
 end
-
