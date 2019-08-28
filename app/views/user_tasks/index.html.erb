@@ -1,7 +1,7 @@
 <div class="main_container">
   <h1>Today To Do list:</h1>
-  <p>Tasks in progress: (<%= user_tasks_count %>)</p>
-  <%= link_to plants_path, class: "abtn" do %>
+
+  <%= link_to plants_path, class: "obbtn" do %>
   pick
 <% end %>
 
@@ -16,13 +16,12 @@
       <% user_tasks.each do |user_task| %>
         <div class="task_plant">
           <li>
-            <p><%= user_task.task.description %></p>
             <div class="log" style="background-image: url(<%= cl_image_path user_task.task.logo_url %>)">
             </div>
-
-              <%= link_to user_task_mark_as_done_user_tasks_path(user_task), method: :put do %>
-                  <i class="fas fa-check"></i>
-              <% end %>
+            <p><%= user_task.task.description %></p>
+            <%= link_to user_task_mark_as_done_user_tasks_path(user_task), method: :put do %>
+                <i class="fas fa-check"></i>
+            <% end %>
           </li>
         </div>
         <% end %>
