@@ -13,4 +13,10 @@ class GardenPlantsController < ApplicationController
       redirect_to garden_path(current_user.garden)
     end
   end
+
+  def destroy
+    @garden_plant = GardenPlant.find(params[:id])
+    @garden_plant.destroy
+   end
+
 end
