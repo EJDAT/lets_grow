@@ -1,5 +1,6 @@
 <div class="main_container">
   <h1>Today To Do list:</h1>
+  <p>Tasks in progress: (<%= user_tasks_count %>)</p>
   <%= link_to plants_path, class: "abtn" do %>
   pick
 <% end %>
@@ -8,6 +9,7 @@
 
 
   <% @user_tasks_by_plant.each do |plant, user_tasks| %>
+
   <div class="task_container">
     <h2><%= plant.name %></h2>
     <ul>
