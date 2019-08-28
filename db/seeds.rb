@@ -52,7 +52,8 @@ plants_list = [
     "nov": false,
     "dec": false,
     },
-    "1899092_mnahdg.svg"
+    "1899092_mnahdg.svg",
+    "vegetable"
     ],
 
 
@@ -88,47 +89,10 @@ plants_list = [
     "nov": false,
     "dec": false,
     },
-    "135702_sao20i.svg"
+    "135702_sao20i.svg",
+    "fruit"
   ],
-
   [ 3,
-    "Cucumber",
-    "The cucumber is an easy-care vegetable and they'll grow quickly.",
-    "The cucumber loves a soil that has loads of sun, light and water ",
-    2,
-    {"jan": false,
-    "feb": false,
-    "mar": false,
-    "apr": false,
-    "may": false,
-    "jun": true,
-    "jul": false,
-    "aug": false,
-    "sep": false,
-    "oct": false,
-    "nov": false,
-    "dec": false,
-    },
-
-    {"jan": false,
-    "feb": false,
-    "mar": false,
-    "apr": false,
-    "may": false,
-    "jun": false,
-    "jul": false,
-    "aug": true,
-    "sep": true,
-    "oct": true,
-    "nov": false,
-    "dec": false,
-    },
-    "June",
-    "August till mid October",
-    "vegetable_colour-15-512_yjbukp.png"
-    ],
-
-  [ 4,
 
     "Chilli Pepper",
     "Chillies are not so difficult to grow but a lot of times people forget how sensitive they are when it comes to lack of water. If you want to add chillies to your garden make sure your chillies have plenty of water and never dry out.",
@@ -162,10 +126,11 @@ plants_list = [
     "nov": false,
     "dec": false,
     },
-    "135701_tgtimr.svg"
+    "135701_tgtimr.svg",
+    "vegetable"
     ],
 
-  [ 5,
+  [ 4,
 
     "Fennel",
     "Did you know that fennel is both a vegetable and an herb, depending on which variety you grow. it's also very easy to grow!",
@@ -198,10 +163,11 @@ plants_list = [
     "nov": false,
     "dec": false,
     },
-    "fennel_gisesm.png"
+    "fennel_gisesm.png",
+    "vegetable"
     ],
 
-  [ 6,
+  [ 5,
 
     "Leek",
     "Leeks are a flavoursome winter vegetable and not so difficult to take care of. They also don’t require much room in the garden.",
@@ -233,11 +199,12 @@ plants_list = [
     "nov": true,
     "dec": true,
     },
-    "vegetable_colour-11-512_txltym.png"
+    "700846_txoepx.svg",
+    "vegetable"
     ],
 
 
-  [ 7,
+  [ 6,
 
     "Pumpkin",
     "Pumpkins are not difficult to grow. They do best when the seeds are planted directly in the ground.",
@@ -270,10 +237,11 @@ plants_list = [
     "nov": false,
     "dec": false,
     },
-    "f80f98449ed9cc2a90b03504a249ebca-pumpkin-icon-flat-by-vexels_ihxxud.png"
+    "f80f98449ed9cc2a90b03504a249ebca-pumpkin-icon-flat-by-vexels_ihxxud.png",
+    "vegetable"
     ],
 
-  [ 8,
+  [ 7,
 
     "Zucchini",
     " A lot of gardeners will tell you that zucchini grows itself. And yes it's true they almost grow by them selves but they can use a hand once in a while.",
@@ -306,22 +274,49 @@ plants_list = [
     "nov": false,
     "dec": false,
     },
-    "1515034_rxu3qo.svg"
+    "1515034_rxu3qo.svg",
+    "vegetable"
     ],
 
-  [ 9,
+  [ 8,
 
     "Pepper",
     "Peppers are a breeze to grow. They are a chock-full of good flavor and nutrition.",
     "Pepper plants require full sun to produce nice fruits. The soil should be well-draining and rich in organic matter. ",
     3,
-    "May till mid. June",
-    "Mid. July till mid. October",
-    "323-512_e9qbum.png"
+    {"jan": false,
+    "feb": false,
+    "mar": false,
+    "apr": false,
+    "may": true,
+    "jun": true,
+    "jul": false,
+    "aug": false,
+    "sep": false,
+    "oct": false,
+    "nov": false,
+    "dec": false,
+    },
+
+    {"jan": false,
+    "feb": false,
+    "mar": false,
+    "apr": false,
+    "may": false,
+    "jun": false,
+    "jul": true,
+    "aug": true,
+    "sep": true,
+    "oct": true,
+    "nov": false,
+    "dec": false,
+    },
+    "1998028_kh89kc.svg",
+    "vegetable"
     ],
 
 
-  [ 10,
+  [ 9,
 
     "Strawberry",
     " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
@@ -354,11 +349,12 @@ plants_list = [
     "nov": false,
     "dec": false,
     },
-    "135717_vtgada.svg"
+    "135717_vtgada.svg",
+    "fruit"
     ],
 
 
-  [ 11,
+  [ 10,
 
     "Lettuce",
     "Lettuce is highly productive in limited space it's also called one of the more 'care-free' crops which might give you an
@@ -391,10 +387,11 @@ plants_list = [
     "nov": false,
     "dec": false,
     },
-    "1515026_bigopj.svg"
+    "1515026_bigopj.svg",
+    "vegetable"
     ],
 
-  [ 12,
+  [ 11,
 
     "Cauliflower",
     " The cauliflower is not the easiest to grow because it does not tolerate the heat or cold well. It requires consistently cool temperatures.",
@@ -426,10 +423,11 @@ plants_list = [
     "nov": false,
     "dec": false,
     },
-    "1135562_hmhteq.png"
+    "1135562_hmhteq.png",
+    "vegetable"
     ],
 
-  [ 13,
+  [ 12,
 
     "Rhubarb",
     "Rhubarb is easy to grow, but needs cool weather to thrive. One thing that might be interested is that the The leaves of the rhubarb plant are poisonous, so don't try to cook them.",
@@ -462,12 +460,13 @@ plants_list = [
     "nov": false,
     "dec": false,
     },
-    "1135610_dmvtaw.svg"
+    "1135610_dmvtaw.svg",
+    "fruit"
     ],
 
-  [ 14,
+  [ 13,
 
-    "carrot",
+    "Carrot",
     "carrots are one of the easiest vegetables to grow in the cooler climates.",
     "Carrots need very fine soil without any large stones or obstacles. The soil should be light and sandy if possible and not recently manured. Carrots are bad competitors with weeds so you want as weed free an environment as possible. ",
     2,
@@ -497,12 +496,259 @@ plants_list = [
     "nov": true,
     "dec": false,
     },
-    "135687_xauv3b.svg"
-    ]
+    "135687_xauv3b.svg",
+    "vegetable"
+    ],
+    [ 14,
+
+      "Raspberry",
+      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
+      "Strawberries love sunlight and need full sun to produce the largest yields.
+      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      4,
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": false,
+      "jul": false,
+      "aug": false,
+      "sep": true,
+      "oct": true,
+      "nov": false,
+      "dec": false,
+      },
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": true,
+      "jul": true,
+      "aug": false,
+      "sep": false,
+      "oct": false,
+      "nov": false,
+      "dec": false,
+      },
+      "1515032_cm9a7g.svg",
+      "fruit"
+      ],
+      [ 15,
+      "Fig",
+      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
+      "Strawberries love sunlight and need full sun to produce the largest yields.
+      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      4,
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": false,
+      "jul": false,
+      "aug": false,
+      "sep": true,
+      "oct": true,
+      "nov": false,
+      "dec": false,
+      },
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": true,
+      "jul": true,
+      "aug": false,
+      "sep": false,
+      "oct": false,
+      "nov": false,
+      "dec": false,
+      },
+      "1135552_wew42e.svg",
+      "fruit"
+      ],
+      [ 16,
+      "Apple",
+      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
+      "Strawberries love sunlight and need full sun to produce the largest yields.
+      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      4,
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": false,
+      "jul": false,
+      "aug": false,
+      "sep": true,
+      "oct": true,
+      "nov": false,
+      "dec": false,
+      },
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": true,
+      "jul": true,
+      "aug": false,
+      "sep": false,
+      "oct": false,
+      "nov": false,
+      "dec": false,
+      },
+      "415733_ni1dlw.svg",
+      "fruit"
+      ],
+      [ 17,
+      "Grapes",
+      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
+      "Strawberries love sunlight and need full sun to produce the largest yields.
+      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      4,
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": false,
+      "jul": false,
+      "aug": false,
+      "sep": true,
+      "oct": true,
+      "nov": false,
+      "dec": false,
+      },
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": true,
+      "jul": true,
+      "aug": false,
+      "sep": false,
+      "oct": false,
+      "nov": false,
+      "dec": false,
+      },
+      "415733_ni1dlw.svg",
+      "fruit"
+      ],
+      [ 18,
+      "Blueberry",
+      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
+      "Strawberries love sunlight and need full sun to produce the largest yields.
+      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      4,
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": false,
+      "jul": false,
+      "aug": false,
+      "sep": true,
+      "oct": true,
+      "nov": false,
+      "dec": false,
+      },
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": true,
+      "jul": true,
+      "aug": false,
+      "sep": false,
+      "oct": false,
+      "nov": false,
+      "dec": false,
+      },
+      "1728701_ybc7mc.svg",
+      "fruit"
+      ],
+      [ 19,
+      "Cherry",
+      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
+      "Strawberries love sunlight and need full sun to produce the largest yields.
+      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      4,
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": false,
+      "jul": false,
+      "aug": false,
+      "sep": true,
+      "oct": true,
+      "nov": false,
+      "dec": false,
+      },
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": true,
+      "jul": true,
+      "aug": false,
+      "sep": false,
+      "oct": false,
+      "nov": false,
+      "dec": false,
+      },
+      "135695_fberyn.svg",
+      "fruit"
+      ],
+      [ 20,
+      "Apricot",
+      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
+      "Strawberries love sunlight and need full sun to produce the largest yields.
+      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      4,
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": false,
+      "jul": false,
+      "aug": false,
+      "sep": true,
+      "oct": true,
+      "nov": false,
+      "dec": false,
+      },
+      {"jan": false,
+      "feb": false,
+      "mar": false,
+      "apr": false,
+      "may": false,
+      "jun": true,
+      "jul": true,
+      "aug": false,
+      "sep": false,
+      "oct": false,
+      "nov": false,
+      "dec": false,
+      },
+      "1135558_sukyb5.svg",
+      "fruit"
+      ]
 ]
 
-plants_list.each do |id, name, description, description_details, price, plant_date, harvest_date, logo_url|
-  Plant.create!(id: id, name: name, description: description, description_details: description_details, price: price, plant_date: plant_date, harvest_date: harvest_date, logo_url: logo_url)
+plants_list.each do |id, name, description, description_details, price, plant_date, harvest_date, logo_url, category|
+  Plant.create!(id: id, name: name, description: description, description_details: description_details, price: price, plant_date: plant_date, harvest_date: harvest_date, logo_url: logo_url, category: category)
 
 end
 
@@ -549,166 +795,231 @@ tasks_list = [
     "Take out the weed around the plant",
     "135702_sao20i.svg"
   ],
+
   [ 3,
-    "sow the cucumber seeds",
-    "vegetable_colour-15-512_yjbukp.png"
-  ],
-  [ 3,
-    "Hey, I think your cucumber plant might be thursty.",
-    "vegetable_colour-15-512_yjbukp.png"
-  ],
-  [ 3,
-    "Thin cucumber plants",
-    "vegetable_colour-15-512_yjbukp.png"
-  ],
-  [ 3,
-    "Take out the weed around the plant",
-    "vegetable_colour-15-512_yjbukp.png"
-  ],
-  [ 3,
-     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
-     "vegetable_colour-15-512_yjbukp.png"
-  ],
-  [ 4,
     "sow the chilli seeds",
     "135701_tgtimr.svg"
   ],
-  [ 4,
+  [ 3,
     "Hello, Don't forget to water your chilli pepper plant!",
     "135701_tgtimr.svg"
   ],
-  [ 4,
+  [ 3,
     "Take out the weed around the plant",
     "135701_tgtimr.svg"
   ],
-  [ 5,
+  [ 4,
     "sow the fennel seeds",
     "fennel_gisesm.png"
   ],
-  [ 5,
+  [4,
     "Hey, I think your fennel plant might be thursty!",
     "fennel_gisesm.png"
   ],
-  [5,
+  [4,
     "Check if blooms begin to appear on your fennel plant, you can either pinch them to prevent the plant from going to seed, or just go ahead and let it flower, to attract beneficial insects",
     "fennel_gisesm.png"
   ],
-  [5,
+  [4,
     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
     "fennel_gisesm.png"
   ],
-  [5,
+  [4,
     "Take out the weed around the plant",
     "fennel_gisesm.png"
   ],
-  [ 6,
+  [ 5,
     "sow the leek seeds",
-    "vegetable_colour-11-512_txltym.png"
+    "700846_txoepx.svg"
   ],
-  [6,
+  [5,
     "Hey, Give some water to your leek plant.",
-    "vegetable_colour-11-512_txltym.png"
+    "700846_txoepx.svg"
   ],
-  [6,
+  [5,
     "Take out the weed around the plant",
-    "vegetable_colour-11-512_txltym.png"
+    "700846_txoepx.svg"
   ],
 
-  [6,
+  [5,
     "  After a few weeks, you can improve the length of white stem by blanching the plant above ground. Wrap about 10cm (4in) of the base of the plant in newspaper and then pull dry soil around the stem to exclude light. Be careful not to introduce soil between the leaves as this can make for gritty eating.",
-    "vegetable_colour-11-512_txltym.png"
+    "700846_txoepx.svg"
   ],
-  [ 7,
+  [ 6,
     "sow the pumpkin seeds",
     "f80f98449ed9cc2a90b03504a249ebca-pumpkin-icon-flat-by-vexels_ihxxud.png"
   ],
-  [7,
+  [6,
     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
     "f80f98449ed9cc2a90b03504a249ebca-pumpkin-icon-flat-by-vexels_ihxxud.png"
   ],
-  [ 8,
+  [ 7,
     "sow the zucchini seeds",
     "1515034_rxu3qo.svg"
   ],
-  [8,
+  [7,
     "Hey, Give some water to your zucchini plant.",
     "1515034_rxu3qo.svg"
   ],
-  [8,
+  [7,
     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
     "1515034_rxu3qo.svg"
   ],
-[ 9,
+[ 8,
     "sow the pepper seeds",
-    "323-512_e9qbum.png"
+    "1998028_kh89kc.svg"
   ],
-  [9,
+  [8,
     "Hey, Give some water to your pepper plant.",
-    "323-512_e9qbum.png"
+    "1998028_kh89kc.svg"
   ],
-  [9,
+  [8,
     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
-    "323-512_e9qbum.png"
+    "1998028_kh89kc.svg"
   ],
-  [ 10,
+  [ 9,
     "sow the strawberry seeds",
     "135717_vtgada.svg"
   ],
-  [10,
+  [9,
     "Hey, Give some water to your strawberry plant.",
     "135717_vtgada.svg"
   ],
-  [10,
+  [9,
     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
     "135717_vtgada.svg"
   ],
-  [ 11,
+  [ 10,
     "sow the lettuce seeds",
     "1515026_bigopj.svg"
   ],
-  [11,
+  [10,
     "Hey, Give some water to your lettuce plant.",
     "1515026_bigopj.svg"
   ],
-  [11,
+  [10,
     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
     "1515026_bigopj.svg"
   ],
-  [ 12,
+  [ 11,
     "sow the cauliflower seeds",
     "1135562_hmhteq.png"
   ],
-  [12,
+  [11,
     "Hey, Give some water to your cauliflower plant.",
     "1135562_hmhteq.png"
   ],
-  [12,
+  [11,
     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
     "1135562_hmhteq.png"
   ],
-  [ 13,
+  [ 12,
     "sow the rhubarb seeds",
     "1135610_dmvtaw.svg"
   ],
-  [13,
+  [12,
     "Hey, Give some water to your rhubarb plant.",
     "1135610_dmvtaw.svg"
   ],
-  [13,
+  [12,
     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
     "1135610_dmvtaw.svg"
   ],
-  [ 14,
+  [ 13,
     "sow the carrot seeds",
     "135687_xauv3b.svg"
   ],
-  [14,
+  [13,
     "Hey, Give some water to your carrot plant.",
     "135687_xauv3b.svg"
   ],
-  [14,
+  [13,
     "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
     "135687_xauv3b.svg"
+  ],
+  [ 14,
+    "sow the raspberry seeds",
+    "1515032_cm9a7g.svg"
+  ],
+  [14,
+    "Hey, Give some water to your carrot raspberry.",
+    "1515032_cm9a7g.svg"
+  ],
+  [14,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "1515032_cm9a7g.svg"
+  ],
+  [ 15,
+    "sow the fig seeds",
+    "1135552_wew42e.svg"
+  ],
+  [15,
+    "Hey, Give some water to your fig plant.",
+    "1135552_wew42e.svg"
+  ],
+  [15,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "1135552_wew42e.svg"
+  ],
+  [ 16,
+    "sow the apple seeds",
+    "415733_ni1dlw.svg"
+  ],
+  [16,
+    "Hey, Give some water to your apple plant.",
+    "415733_ni1dlw.svg"
+  ],
+  [16,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "415733_ni1dlw.svg"
+  ],
+  [ 17,
+    "sow the grapes seeds",
+    "415733_ni1dlw.svg"
+  ],
+  [17,
+    "Hey, Give some water to your grapes plant.",
+    "415733_ni1dlw.svg"
+  ],
+  [17,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "415733_ni1dlw.svg"
+  ],
+  [ 18,
+    "sow the blueberry seeds",
+    "1728701_ybc7mc.svg"
+  ],
+  [18,
+    "Hey, Give some water to your blueberry plant.",
+    "1728701_ybc7mc.svg"
+  ],
+  [18,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "1728701_ybc7mc.svg"
+  ],
+  [ 19,
+    "sow the cherry seeds",
+    "135695_fberyn.svg"
+  ],
+  [19,
+    "Hey, Give some water to your cherry plant.",
+    "135695_fberyn.svg"
+  ],
+  [19,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "135695_fberyn.svg"
+  ],
+  [ 20,
+    "sow the apricot seeds",
+    "1135558_sukyb5.svg"
+  ],
+  [20,
+    "Hey, Give some water to your apricot plant.",
+    "1135558_sukyb5.svg"
+  ],
+  [20,
+    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "1135558_sukyb5.svg"
   ]
 ]
 
