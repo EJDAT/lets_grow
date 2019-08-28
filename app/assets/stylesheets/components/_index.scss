@@ -11,3 +11,9 @@
 @import "task";
 @import "checkbox";
 
+
+// To keep the footer on control
+
+body {
+  position: relative;
+}
