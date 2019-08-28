@@ -2,6 +2,7 @@
   padding-top: 100px;
   background-color: #CEFFC8;
   padding-bottom: 50px;
+
   //background-image: url("grassflat.jpg");
 }
 
@@ -9,7 +10,7 @@ h1{
   text-align: center;
   padding-bottom: 20px;
   font-size: 100px;
-  color: #00241B;
+  color: #3D885B;
   border-image: url("maybelogo.png");
 }
 
@@ -17,7 +18,7 @@ h1{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 200px 200px 200px 200px;
-  margin: 0px 100px;
+  margin: 100px;
   border: solid 20px #3C2615;
   border-radius: 8px;
 }
@@ -36,4 +37,9 @@ h1{
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.buttton {
+
+}
+
 
