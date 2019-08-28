@@ -1,25 +1,30 @@
 <div class="containerhome">
   <div class="grass">
 
-    <h1> <%= current_user.username %>'s Garden <%= image_tag "maybelogo.png", alt: "carrot", width: 100 %></h1>
-    <div class="buttton">
-      <%= link_to user_tasks_path, {class: "obbtn"} do %>
-                 Check your tasks (<%= user_tasks_count %>)
-          <% end %>
-      <%= link_to plants_path, {class: "obbtn"} do %>
-                 Choose another plant
-          <% end %>
-    </div>
-    <div class="garden">
-      <% @garden_plants.each do |garden_plant| %>
-        <%= link_to user_tasks_path, {class: "plot"} do %>
-          <div class="logo" style="background-image: url(<%= cl_image_path garden_plant.plant.logo_url %>)">
-          </div>
+  <h1> <%= current_user.username.capitalize %>'s Garden <%= image_tag "maybelogo.png", alt: "carrot", width: 100 %></h1>
+
+
+  <div class="buttton">
+    <%= link_to user_tasks_path, {class: "obbtn"} do %>
+               Check your tasks
         <% end %>
-    <% end %>
-    <% @number_of_plots.times do  %>
-      <div class="plot"></div>
-    <% end %>
+    <%= link_to plants_path, {class: "obbtn"} do %>
+               Choose another plant
+        <% end %>
+  </div>
+
+<div class="garden">
+  <% @garden_plants.each do |garden_plant| %>
+    <div class="plot">
+      <div class="logo kenburns-bottom" style="background-image: url('<%= cl_image_path garden_plant.plant.logo_url %>')" data-garden_plant-id="<%= garden_plant.id %>">
+        <%= link_to "X", garden_plant, method: :delete, remote: true %>
+      </div>
+    </div>
+  <% end %>
+
+  <% @number_of_plots.times do  %>
+    <div class="plot"></div>
+  <% end %>
   </div>
   </div>
 </div>
