@@ -16,8 +16,10 @@
 <div class="garden">
   <% @garden_plants.each do |garden_plant| %>
     <div class="plot">
-      <div class="logo kenburns-bottom" style="background-image: url('<%= cl_image_path garden_plant.plant.logo_url %>')" data-garden_plant-id="<%= garden_plant.id %>">
-        <%= link_to "X", garden_plant, method: :delete, remote: true %>
+      <div class="logo" style="background-image: url('<%= cl_image_path garden_plant.plant.logo_url %>')" data-garden_plant-id="<%= garden_plant.id %>">
+        <%= link_to garden_plant, method: :delete, remote: true do %>
+          <i class="far fa-trash-alt"></i>
+        <% end %>
       </div>
     </div>
   <% end %>
@@ -27,6 +29,8 @@
   <% end %>
   </div>
 </div>
+
+
 
 
 
