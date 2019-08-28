@@ -1,6 +1,7 @@
 .banner-index {
   background-size: cover;
   background-position: center;
+  background-color: #CEFFC8;
   padding: 40px 50px;
   min-height: 100vh;
   background-attachment: fixed;
@@ -16,16 +17,18 @@
 }
 
 .banner-index p {
-  font-size: 30px;
+  font-size: 25px;
   color: black;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-family: 'Karla', sans-serif;
 }
 
 .card-category-index {
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   height: 180px;
+  width: 180px;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,8 +38,8 @@
   font-family: 'Montserrat', sans-serif;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin-bottom: 20px;
+  margin: 0 auto;
 }
 
 .carousel-indicators {
@@ -58,7 +61,7 @@
 .controls-top {
   position: absolute;
   right: 0;
-  top: -50px;
+  top: -70px;
   left: 0;
   z-index: 15;
   display: -webkit-box;
