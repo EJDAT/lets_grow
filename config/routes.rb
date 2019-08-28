@@ -10,6 +10,8 @@ Rails.application.routes.draw do
     resources :tasks, only: [ :index, :show ]
   end
 
+  resources :garden_plants, only: [ :destroy ]
+
   resources :gardens, only: [:show, :create ]
 
   devise_for :users
