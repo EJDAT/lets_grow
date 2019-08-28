@@ -1,12 +1,12 @@
-<div class="grass">
-
+<div class="containerhome">
+  <div class="grass">
 
   <h1> <%= current_user.username.capitalize %>'s Garden <%= image_tag "maybelogo.png", alt: "carrot", width: 100 %></h1>
 
 
   <div class="buttton">
     <%= link_to user_tasks_path, {class: "obbtn"} do %>
-               Check your tasks
+               Check your tasks (<%= user_tasks_count %>)
         <% end %>
     <%= link_to plants_path, {class: "obbtn"} do %>
                Choose another plant
@@ -28,9 +28,6 @@
     <div class="plot"></div>
   <% end %>
   </div>
+  </div>
 </div>
-
-
-
-
 

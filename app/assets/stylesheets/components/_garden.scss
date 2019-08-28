@@ -1,8 +1,6 @@
 .grass{
   padding-top: 100px;
-  background-color: #CEFFC8;
   padding-bottom: 50px;
-
   //background-image: url("grassflat.jpg");
 }
 
@@ -48,3 +46,7 @@ h1{
   left: 10px;
 }
 
+.buttton {
+  display: flex;
+  justify-content: space-around;
+}
