@@ -2,7 +2,8 @@ class PlantsController < ApplicationController
   skip_before_action :authenticate_user!, only: [ :index, :show ]
 
   def index
-    @plants = Plant.all
+    @vegeplants = Plant.where(category: "vegetable")
+    @fruitplants = Plant.where(category: "fruit")
   end
 
   def show
