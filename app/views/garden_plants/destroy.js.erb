@@ -1,10 +1,11 @@
-const test = document.querySelector("[data-garden_plant-id='<%= @garden_plant.id %>']");
-test.remove();
+document.querySelector("[data-garden_plant-id='<%= @garden_plant.id %>']").remove();
 
-const task_counter = document.querySelector("#task_counter");
+var task_counter = document.querySelector("#task_counter_btn");
 task_counter.innerText = `Check your tasks (${<%= user_tasks_count %>})`;
 
-const task_counter_nav = document.querySelector("#task_counter_nav");
-task_counter_nav.innerText = `Check your tasks (${<%= user_tasks_count %>})`;
+// update navbae
+var navbarLinkText = document.getElementById('task_counter').innerText
+document.getElementById('task_counter').innerText = navbarLinkText.replace(/\d/, `${<%= user_tasks_count %>}`);
+
 
 
