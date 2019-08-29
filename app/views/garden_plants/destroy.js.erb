@@ -4,8 +4,7 @@ var task_counter = document.querySelector("#task_counter_btn");
 task_counter.innerText = `Check your tasks (${<%= user_tasks_count %>})`;
 
 // update navbae
-var navbarLinkText = document.getElementById('task_counter').innerText
-document.getElementById('task_counter').innerText = navbarLinkText.replace(/\d/, `${<%= user_tasks_count %>}`);
+document.getElementById('task_counter').innerText = `My Tasks (${<%= user_tasks_count %>})`;
 
 
 

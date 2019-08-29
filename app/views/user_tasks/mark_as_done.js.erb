@@ -1,7 +1,6 @@
 
 document.querySelector("[data-user-task-id='<%= @task_done.id %>']").style.opacity = '0';
 setTimeout(function(){document.querySelector("[data-user-task-id='<%= @task_done.id %>']").remove();}, 1000);
-var navbarLinkText = document.getElementById('task_counter').innerText
 
-document.getElementById('task_counter').innerText = navbarLinkText.replace(/\d/, `${<%= user_tasks_count %>}`);
+document.getElementById('task_counter').innerText = `My Tasks (${<%= user_tasks_count %>})`;
 
