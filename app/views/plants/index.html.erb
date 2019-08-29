@@ -1,12 +1,29 @@
 <div class="container-index-plants">
-  <div class="cards-index">
-    <% @plants.each do |plant| %>
-      <%= link_to plant_path(plant), {class: "card-over"} do %>
-        <div class="card-category-index fade-in" style="background-image: url('<%= cl_image_path plant.logo_url %>')">
-          <%= plant.name %>
-        </div>
+  <div class="vegetables">
+    <div><h2>Vegetables:</h2></div>
+    <div class="cards-index">
+      <% @vegeplants.each do |plant| %>
+        <%= link_to plant_path(plant), {class: "card-over"} do %>
+          <div class="card-category-index fade-in" style="background-image: url('<%= cl_image_path plant.logo_url %>')">
+            <%= plant.name %>
+          </div>
+        <% end %>
       <% end %>
-    <% end %>
+    </div>
   </div>
+  <div class="fruits">
+    <div><h2>Fruits:</h2></div>
+    <div class="cards-index">
+      <% @fruitplants.each do |plant| %>
+        <%= link_to plant_path(plant), {class: "card-over"} do %>
+          <div class="card-category-index fade-in" style="background-image: url('<%= cl_image_path plant.logo_url %>')">
+            <%= plant.name %>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+
+
 </div>
 
