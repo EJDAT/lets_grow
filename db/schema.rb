@@ -39,9 +39,9 @@ ActiveRecord::Schema.define(version: 2019_08_29_130953) do
     t.datetime "updated_at", null: false
     t.string "logo_url"
     t.string "description_details"
-    t.string "category"
     t.jsonb "plant_date", default: {}
     t.jsonb "harvest_date", default: {}
+    t.string "category"
     t.integer "difficulty"
     t.string "fun_fact"
   end
