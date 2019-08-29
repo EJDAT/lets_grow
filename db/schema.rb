@@ -10,8 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-
-ActiveRecord::Schema.define(version: 2019_08_28_074751) do
+ActiveRecord::Schema.define(version: 2019_08_29_064957) do
 
 
   # These are extensions that must be enabled in order to support this database
@@ -43,8 +42,8 @@ ActiveRecord::Schema.define(version: 2019_08_28_074751) do
     t.string "description_details"
     t.jsonb "plant_date", default: {}
     t.jsonb "harvest_date", default: {}
-    t.string "category"
-  end
+    t.integer "difficulty"
+
 
   create_table "tasks", force: :cascade do |t|
     t.string "description"
