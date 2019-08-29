@@ -53,7 +53,8 @@ plants_list = [
     "dec": false,
     },
     "1899092_mnahdg.svg",
-    "vegetable"
+    "vegetable",
+    "Beetroot is a Hangover cure."
     ],
 
 
@@ -90,8 +91,10 @@ plants_list = [
     "dec": false,
     },
     "135702_sao20i.svg",
-    "fruit"
+    "fruit",
+    "Tomato seedlings have been grown in space before!"
   ],
+
   [ 3,
 
     "Chilli Pepper",
@@ -127,7 +130,8 @@ plants_list = [
     "dec": false,
     },
     "135701_tgtimr.svg",
-    "vegetable"
+    "vegetable",
+    "Chili peppers release feel-good endorphins and dopamine, because your brain interprets the burn from hot peppers as pain, which can ultimately result in a sense of euphoria similar to a “runner’s high."
     ],
 
   [ 4,
@@ -164,7 +168,8 @@ plants_list = [
     "dec": false,
     },
     "fennel_gisesm.png",
-    "vegetable"
+    "vegetable",
+    "It is used to relieve bronchial spasms because of its antispasmodic properties. It targets the smooth muscles of the respiratory system, stomach muscles and intestines."
     ],
 
   [ 5,
@@ -200,7 +205,8 @@ plants_list = [
     "dec": true,
     },
     "700846_txoepx.svg",
-    "vegetable"
+    "vegetable",
+    "Leek lowers the blood pressure."
     ],
 
 
@@ -238,7 +244,8 @@ plants_list = [
     "dec": false,
     },
     "f80f98449ed9cc2a90b03504a249ebca-pumpkin-icon-flat-by-vexels_ihxxud.png",
-    "vegetable"
+    "vegetable",
+    "The seeds are said to reduce the chance of prostate cancer in men."
     ],
 
   [ 7,
@@ -275,12 +282,13 @@ plants_list = [
     "dec": false,
     },
     "1515034_rxu3qo.svg",
-    "vegetable"
+    "vegetable",
+    "Dark-colored zucchini contains the greatest amount of nutrients. Small and medium-sized zucchini have better flavor than large varieties."
     ],
 
   [ 8,
 
-    "Pepper",
+    "Bell Pepper",
     "Peppers are a breeze to grow. They are a chock-full of good flavor and nutrition.",
     "Pepper plants require full sun to produce nice fruits. The soil should be well-draining and rich in organic matter. ",
     3,
@@ -312,7 +320,8 @@ plants_list = [
     "dec": false,
     },
     "1998028_kh89kc.svg",
-    "vegetable"
+    "vegetable",
+    "Bell peppers keep skin and hair looking youthful."
     ],
 
 
@@ -350,7 +359,8 @@ plants_list = [
     "dec": false,
     },
     "135717_vtgada.svg",
-    "fruit"
+    "fruit",
+    "Brushing your teeth is important, but eating strawberries can actually help whiten your teeth. The acids in the fruit help to remove stains."
     ],
 
 
@@ -388,7 +398,8 @@ plants_list = [
     "dec": false,
     },
     "1515026_bigopj.svg",
-    "vegetable"
+    "vegetable",
+    "The color of lettuce determines the nutritional value that people can get. If you eat darker colored lettuce, you can get more nutritional values than the light colored lettuce."
     ],
 
   [ 11,
@@ -424,11 +435,11 @@ plants_list = [
     "dec": false,
     },
     "1135562_hmhteq.png",
-    "vegetable"
+    "vegetable",
+    "When you eat Cauliflower you could get a bit gassy.  "
     ],
 
   [ 12,
-
     "Rhubarb",
     "Rhubarb is easy to grow, but needs cool weather to thrive. One thing that might be interested is that the The leaves of the rhubarb plant are poisonous, so don't try to cook them.",
     "Choose a site that is well-drained, fertile, and preferably in full sunlight.
@@ -461,7 +472,8 @@ plants_list = [
     "dec": false,
     },
     "1135610_dmvtaw.svg",
-    "fruit"
+    "fruit",
+    "Beware!! The leaves attached to a Rhubarb stalk are poisonous."
     ],
 
   [ 13,
@@ -497,8 +509,10 @@ plants_list = [
     "dec": false,
     },
     "135687_xauv3b.svg",
-    "vegetable"
+    "vegetable",
+    "Carrots were originally white or purple. Then a yellow carrot appeared through mutation and the familiar orange carrot was bred from it."
     ],
+
     [ 14,
 
       "Raspberry",
@@ -533,7 +547,8 @@ plants_list = [
       "dec": false,
       },
       "1515032_cm9a7g.svg",
-      "fruit"
+      "fruit",
+      "A tea made from red raspberry leaves is said to be good for expectant mothers since it helps strengthen the immune system, provides relief from morning sickness, improves blood circulation and strengthens the muscles in the uterus."
       ],
       [ 15,
       "Fig",
@@ -568,7 +583,8 @@ plants_list = [
       "dec": false,
       },
       "1135552_wew42e.svg",
-      "fruit"
+      "fruit",
+      "Figs are not really fruits, but flowers turned inside out. Inside the fruit are the beginnings of hundreds of little flowers. The sweet edible seeds are the evidence."
       ],
       [ 16,
       "Apple",
@@ -603,7 +619,8 @@ plants_list = [
       "dec": false,
       },
       "415733_ni1dlw.svg",
-      "fruit"
+      "fruit",
+      "Apples contain high levels of boron, which stimulates electrical activity of the brain and increases mental alertness."
       ],
       [ 17,
       "Grapes",
@@ -638,7 +655,8 @@ plants_list = [
       "dec": false,
       },
       "415733_ni1dlw.svg",
-      "fruit"
+      "fruit",
+      "Grapes are used to help cure asthma, indigestion, migraine, kidnеy disease and fatigue."
       ],
       [ 18,
       "Blueberry",
@@ -673,7 +691,8 @@ plants_list = [
       "dec": false,
       },
       "1728701_ybc7mc.svg",
-      "fruit"
+      "fruit",
+      "The blueberry is one of the only foods that is truly naturally blue in colour. The pigment that gives blueberries their distinctive colour—called anthocyanin—is the same compound that provides the blueberry’s amazing health benefits."
       ],
       [ 19,
       "Cherry",
@@ -708,7 +727,8 @@ plants_list = [
       "dec": false,
       },
       "135695_fberyn.svg",
-      "fruit"
+      "fruit",
+      "d cherries contain melatonin which helps to fight against harmful toxins. These fruits also contain a high level of antioxidants which are beneficial to the human body"
       ],
       [ 20,
       "Apricot",
@@ -743,12 +763,13 @@ plants_list = [
       "dec": false,
       },
       "1135558_sukyb5.svg",
-      "fruit"
+      "fruit",
+      "Apricots are rich in soluble fiber, which helps with digestion of food, prevents constipation and several gastrointestinal disorders."
       ]
 ]
 
-plants_list.each do |id, name, description, description_details, price, plant_date, harvest_date, logo_url, category|
-  Plant.create!(id: id, name: name, description: description, description_details: description_details, price: price, plant_date: plant_date, harvest_date: harvest_date, logo_url: logo_url, category: category)
+plants_list.each do |id, name, description, description_details, price, plant_date, harvest_date, logo_url, category, fun_fact|
+  Plant.create!(id: id, name: name, description: description, description_details: description_details, price: price, plant_date: plant_date, harvest_date: harvest_date, logo_url: logo_url, category: category, fun_fact: fun_fact)
 
 end
 
