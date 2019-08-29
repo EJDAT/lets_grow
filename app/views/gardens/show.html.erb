@@ -5,7 +5,7 @@
 
 
   <div class="buttton">
-    <%= link_to user_tasks_path, {class: "obbtn"} do %>
+    <%= link_to user_tasks_path, {id: 'task_counter', class: "obbtn"} do %>
                Check your tasks (<%= user_tasks_count %>)
         <% end %>
     <%= link_to plants_path, {class: "obbtn"} do %>

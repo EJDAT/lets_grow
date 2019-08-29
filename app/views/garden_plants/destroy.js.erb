@@ -1,3 +1,10 @@
-const test = document.querySelector("[data-garden_plant-id='<%= @garden_plant.id %>']")
-
+const test = document.querySelector("[data-garden_plant-id='<%= @garden_plant.id %>']");
 test.remove();
+
+const task_counter = document.querySelector("#task_counter");
+task_counter.innerText = `Check your tasks (${<%= user_tasks_count %>})`;
+
+const task_counter_nav = document.querySelector("#task_counter_nav");
+task_counter_nav.innerText = `Check your tasks (${<%= user_tasks_count %>});
+
+
