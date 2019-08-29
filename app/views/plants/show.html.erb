@@ -9,7 +9,7 @@
           <table>
             <tr>
              <% @months.each do |month| %>
-                <td class="<%= 'colored' if @plant.plant_date[month] %>"><%= month %></td>
+                <td class="<%= 'color-change-2x' if @plant.plant_date[month] %>"><%= month %></td>
               <% end %>
             </tr>
           </table>
@@ -18,7 +18,7 @@
           <table>
             <tr>
              <% @months.each do |month| %>
-                <td class="<%= 'colored' if @plant.harvest_date[month] %>"><%= month %></td>
+                <td class="<%= 'color-change-2x' if @plant.harvest_date[month] %>"><%= month %></td>
               <% end %>
             </tr>
           </table>
