@@ -1,0 +1,8 @@
+
+document.querySelector("[data-user-task-id='<%= @task_done.id %>']").style.opacity = '0';
+setTimeout(function(){document.querySelector("[data-user-task-id='<%= @task_done.id %>']").remove();}, 1000);
+var navbarLinkText = document.getElementById('task-count').innerText
+var count = navbarLinkText.match(/\d/)[0];
+
+document.getElementById('task-count').innerText = navbarLinkText.replace(/\d/, `${count - 1}`);
+
