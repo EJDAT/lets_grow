@@ -53,7 +53,8 @@ plants_list = [
     "dec": false,
     },
     "1899092_mnahdg.svg",
-    "vegetable"
+    "vegetable",
+    1
     ],
 
 
@@ -90,7 +91,8 @@ plants_list = [
     "dec": false,
     },
     "135702_sao20i.svg",
-    "fruit"
+    "fruit",
+    2
   ],
   [ 3,
 
@@ -127,7 +129,8 @@ plants_list = [
     "dec": false,
     },
     "135701_tgtimr.svg",
-    "vegetable"
+    "vegetable",
+    2
     ],
 
   [ 4,
@@ -164,7 +167,8 @@ plants_list = [
     "dec": false,
     },
     "fennel_gisesm.png",
-    "vegetable"
+    "vegetable",
+    1
     ],
 
   [ 5,
@@ -200,7 +204,8 @@ plants_list = [
     "dec": true,
     },
     "700846_txoepx.svg",
-    "vegetable"
+    "vegetable",
+    2
     ],
 
 
@@ -209,7 +214,8 @@ plants_list = [
     "Pumpkin",
     "Pumpkins are not difficult to grow. They do best when the seeds are planted directly in the ground.",
     "The pumkin is one of those veggies that prefers full sun but could do with partial shade.
-    They have deep roots and are normally quite capable of finding their own water within the soil, but in very dry periods some supplementary watering may be required.",
+    They have deep roots and are normally quite capable of finding their own water within the soil, but in very dry periods some supplementary watering may be required.
+    Keep in mind that a pumkin need a ",
     4,
     {"jan": false,
     "feb": false,
@@ -238,7 +244,8 @@ plants_list = [
     "dec": false,
     },
     "f80f98449ed9cc2a90b03504a249ebca-pumpkin-icon-flat-by-vexels_ihxxud.png",
-    "vegetable"
+    "vegetable",
+    2
     ],
 
   [ 7,
@@ -275,7 +282,8 @@ plants_list = [
     "dec": false,
     },
     "1515034_rxu3qo.svg",
-    "vegetable"
+    "vegetable",
+    1
     ],
 
   [ 8,
@@ -312,7 +320,8 @@ plants_list = [
     "dec": false,
     },
     "1998028_kh89kc.svg",
-    "vegetable"
+    "vegetable",
+    1
     ],
 
 
@@ -350,7 +359,8 @@ plants_list = [
     "dec": false,
     },
     "135717_vtgada.svg",
-    "fruit"
+    "fruit",
+    1
     ],
 
 
@@ -388,7 +398,8 @@ plants_list = [
     "dec": false,
     },
     "1515026_bigopj.svg",
-    "vegetable"
+    "vegetable",
+    1
     ],
 
   [ 11,
@@ -424,11 +435,11 @@ plants_list = [
     "dec": false,
     },
     "1135562_hmhteq.png",
-    "vegetable"
+    "vegetable",
+    3
     ],
 
   [ 12,
-
     "Rhubarb",
     "Rhubarb is easy to grow, but needs cool weather to thrive. One thing that might be interested is that the The leaves of the rhubarb plant are poisonous, so don't try to cook them.",
     "Choose a site that is well-drained, fertile, and preferably in full sunlight.
@@ -461,7 +472,8 @@ plants_list = [
     "dec": false,
     },
     "1135610_dmvtaw.svg",
-    "fruit"
+    "fruit",
+    2
     ],
 
   [ 13,
@@ -497,12 +509,13 @@ plants_list = [
     "dec": false,
     },
     "135687_xauv3b.svg",
-    "vegetable"
+    "vegetable",
+    2
     ],
-    [ 14,
 
+    [ 14,
       "Raspberry",
-      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
+      "Raspberry are not that easy to grow aspeciallyStrawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
       "Strawberries love sunlight and need full sun to produce the largest yields.
       Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
       4,
@@ -533,8 +546,10 @@ plants_list = [
       "dec": false,
       },
       "1515032_cm9a7g.svg",
-      "fruit"
+      "fruit",
+      2
       ],
+
       [ 15,
       "Fig",
       " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
@@ -568,8 +583,10 @@ plants_list = [
       "dec": false,
       },
       "1135552_wew42e.svg",
-      "fruit"
+      "fruit",
+      2
       ],
+
       [ 16,
       "Apple",
       " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
@@ -603,8 +620,10 @@ plants_list = [
       "dec": false,
       },
       "415733_ni1dlw.svg",
-      "fruit"
+      "fruit",
+      2
       ],
+
       [ 17,
       "Grapes",
       " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
@@ -637,9 +656,11 @@ plants_list = [
       "nov": false,
       "dec": false,
       },
-      "415733_ni1dlw.svg",
-      "fruit"
+      "765560_nlkfgs",
+      "fruit",
+      1
       ],
+
       [ 18,
       "Blueberry",
       " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
@@ -673,8 +694,10 @@ plants_list = [
       "dec": false,
       },
       "1728701_ybc7mc.svg",
-      "fruit"
+      "fruit",
+      1
       ],
+
       [ 19,
       "Cherry",
       " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
@@ -708,7 +731,8 @@ plants_list = [
       "dec": false,
       },
       "135695_fberyn.svg",
-      "fruit"
+      "fruit",
+      2
       ],
       [ 20,
       "Apricot",
@@ -743,12 +767,13 @@ plants_list = [
       "dec": false,
       },
       "1135558_sukyb5.svg",
-      "fruit"
+      "fruit",
+      2
       ]
 ]
 
-plants_list.each do |id, name, description, description_details, price, plant_date, harvest_date, logo_url, category|
-  Plant.create!(id: id, name: name, description: description, description_details: description_details, price: price, plant_date: plant_date, harvest_date: harvest_date, logo_url: logo_url, category: category)
+plants_list.each do |id, name, description, description_details, price, plant_date, harvest_date, logo_url, category, difficulty|
+  Plant.create!(id: id, name: name, description: description, description_details: description_details, price: price, plant_date: plant_date, harvest_date: harvest_date, logo_url: logo_url, category: category, difficulty: difficulty)
 
 end
 
