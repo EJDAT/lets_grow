@@ -19,6 +19,9 @@ p {
 font-family: 'Montserrat', sans-serif;
 }
 
-body {
-  background-color: #CEFFC8;
+.layoutcontainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 100vh;
 }
