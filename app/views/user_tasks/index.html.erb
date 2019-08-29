@@ -12,14 +12,15 @@
 
   <div class="task_container">
     <h2><%= plant.name %></h2>
+
     <ul>
+
       <% user_tasks.each do |user_task| %>
-        <div class="task_plant">
+
+        <div class="task_plant" data-user-task-id="<%= user_task.id %>">
           <li>
-            <div class="log" style="background-image: url(<%= cl_image_path user_task.task.logo_url %>)">
-            </div>
             <p><%= user_task.task.description %></p>
-            <%= link_to user_task_mark_as_done_user_tasks_path(user_task), method: :put do %>
+            <%= link_to user_task_mark_as_done_user_tasks_path(user_task), method: :put, remote: true, id: "#{user_task.id}" do %>
                 <i class="fas fa-check"></i>
             <% end %>
           </li>
@@ -30,13 +31,6 @@
   <% end %>
 
 </div>
-
-
-
-
-
-
-
 
 
 

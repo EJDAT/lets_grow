@@ -7,6 +7,9 @@
   box-shadow: 0 1px 4px rgba(0,0,0,0.25) ;
   background-color: #CDE77F;
   padding: 20px;
+  opacity: 1;
+  -webkit-transition: opacity 1000ms linear;
+  transition: opacity 1000ms linear;
 }
 
 .task_container {
@@ -47,14 +50,14 @@ ul {
 }
 
 i {
-  margin-top:20px;
+  margin-top:50%;
 }
 
 .main_container p{
 
   color: #3D885B;
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .task_plant:hover {
@@ -66,5 +69,5 @@ i {
 }
 
 .task_plant li p {
-  max-width: 250px;
+  max-width: 380px;
 }

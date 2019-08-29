@@ -11,7 +11,7 @@ class UserTasksController < ApplicationController
     @task_done = UserTask.find(params[:user_task_id])
     @task_done.validated = true
     @task_done.save
-    redirect_to user_tasks_path
+
   end
 
 end
