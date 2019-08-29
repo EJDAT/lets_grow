@@ -54,7 +54,8 @@ plants_list = [
     },
     "1899092_mnahdg.svg",
     "vegetable",
-    1
+    1,
+    "Beetroot is a Hangover cure."
     ],
 
 
@@ -92,8 +93,10 @@ plants_list = [
     },
     "135702_sao20i.svg",
     "fruit",
-    2
+    2,
+    "Tomato seedlings have been grown in space before!"
   ],
+
   [ 3,
 
     "Chilli Pepper",
@@ -130,7 +133,8 @@ plants_list = [
     },
     "135701_tgtimr.svg",
     "vegetable",
-    2
+    2,
+    "Chili peppers release feel-good endorphins and dopamine, because your brain interprets the burn from hot peppers as pain, which can ultimately result in a sense of euphoria similar to a “runner’s high."
     ],
 
   [ 4,
@@ -168,7 +172,8 @@ plants_list = [
     },
     "fennel_gisesm.png",
     "vegetable",
-    1
+    1,
+    "It is used to relieve bronchial spasms because of its antispasmodic properties. It targets the smooth muscles of the respiratory system, stomach muscles and intestines."
     ],
 
   [ 5,
@@ -205,7 +210,8 @@ plants_list = [
     },
     "700846_txoepx.svg",
     "vegetable",
-    2
+    2,
+    "Leek lowers the blood pressure."
     ],
 
 
@@ -245,7 +251,8 @@ plants_list = [
     },
     "f80f98449ed9cc2a90b03504a249ebca-pumpkin-icon-flat-by-vexels_ihxxud.png",
     "vegetable",
-    2
+    2,
+    "The seeds are said to reduce the chance of prostate cancer in men."
     ],
 
   [ 7,
@@ -283,12 +290,13 @@ plants_list = [
     },
     "1515034_rxu3qo.svg",
     "vegetable",
-    1
+    1,
+    "Dark-colored zucchini contains the greatest amount of nutrients. Small and medium-sized zucchini have better flavor than large varieties."
     ],
 
   [ 8,
 
-    "Pepper",
+    "Bell Pepper",
     "Peppers are a breeze to grow. They are a chock-full of good flavor and nutrition.",
     "Pepper plants require full sun to produce nice fruits. The soil should be well-draining and rich in organic matter. ",
     3,
@@ -321,7 +329,8 @@ plants_list = [
     },
     "1998028_kh89kc.svg",
     "vegetable",
-    1
+    1,
+    "Bell peppers keep skin and hair looking youthful."
     ],
 
 
@@ -360,7 +369,8 @@ plants_list = [
     },
     "135717_vtgada.svg",
     "fruit",
-    1
+    1,
+    "Brushing your teeth is important, but eating strawberries can actually help whiten your teeth. The acids in the fruit help to remove stains."
     ],
 
 
@@ -399,7 +409,8 @@ plants_list = [
     },
     "1515026_bigopj.svg",
     "vegetable",
-    1
+    1,
+    "The color of lettuce determines the nutritional value that people can get. If you eat darker colored lettuce, you can get more nutritional values than the light colored lettuce."
     ],
 
   [ 11,
@@ -436,7 +447,8 @@ plants_list = [
     },
     "1135562_hmhteq.png",
     "vegetable",
-    3
+    3,
+    "When you eat Cauliflower you could get a bit gassy.  "
     ],
 
   [ 12,
@@ -473,7 +485,8 @@ plants_list = [
     },
     "1135610_dmvtaw.svg",
     "fruit",
-    2
+    2,
+    "Beware!! The leaves attached to a Rhubarb stalk are poisonous."
     ],
 
   [ 13,
@@ -510,7 +523,8 @@ plants_list = [
     },
     "135687_xauv3b.svg",
     "vegetable",
-    2
+    2,
+    "Carrots were originally white or purple. Then a yellow carrot appeared through mutation and the familiar orange carrot was bred from it."
     ],
 
     [ 14,
@@ -547,7 +561,8 @@ plants_list = [
       },
       "1515032_cm9a7g.svg",
       "fruit",
-      2
+      2,
+      "A tea made from red raspberry leaves is said to be good for expectant mothers since it helps strengthen the immune system, provides relief from morning sickness, improves blood circulation and strengthens the muscles in the uterus."
       ],
 
       [ 15,
@@ -584,7 +599,8 @@ plants_list = [
       },
       "1135552_wew42e.svg",
       "fruit",
-      2
+      2,
+      "Figs are not really fruits, but flowers turned inside out. Inside the fruit are the beginnings of hundreds of little flowers. The sweet edible seeds are the evidence."
       ],
 
       [ 16,
@@ -621,7 +637,8 @@ plants_list = [
       },
       "415733_ni1dlw.svg",
       "fruit",
-      2
+      2,
+      "Apples contain high levels of boron, which stimulates electrical activity of the brain and increases mental alertness.",
       ],
 
       [ 17,
@@ -656,9 +673,11 @@ plants_list = [
       "nov": false,
       "dec": false,
       },
-      "765560_nlkfgs",
+
+      "415733_ni1dlw.svg",
       "fruit",
-      1
+      1,
+      "Grapes are used to help cure asthma, indigestion, migraine, kidnеy disease and fatigue.",
       ],
 
       [ 18,
@@ -695,7 +714,8 @@ plants_list = [
       },
       "1728701_ybc7mc.svg",
       "fruit",
-      1
+      1,
+      "The blueberry is one of the only foods that is truly naturally blue in colour. The pigment that gives blueberries their distinctive colour—called anthocyanin—is the same compound that provides the blueberry’s amazing health benefits."
       ],
 
       [ 19,
@@ -732,7 +752,8 @@ plants_list = [
       },
       "135695_fberyn.svg",
       "fruit",
-      2
+      2,
+      "d cherries contain melatonin which helps to fight against harmful toxins. These fruits also contain a high level of antioxidants which are beneficial to the human body"
       ],
       [ 20,
       "Apricot",
@@ -768,13 +789,13 @@ plants_list = [
       },
       "1135558_sukyb5.svg",
       "fruit",
-      2
+      2,
+      "Apricots are rich in soluble fiber, which helps with digestion of food, prevents constipation and several gastrointestinal disorders."
       ]
 ]
 
-plants_list.each do |id, name, description, description_details, price, plant_date, harvest_date, logo_url, category, difficulty|
-  Plant.create!(id: id, name: name, description: description, description_details: description_details, price: price, plant_date: plant_date, harvest_date: harvest_date, logo_url: logo_url, category: category, difficulty: difficulty)
-
+plants_list.each do |id, name, description, description_details, price, plant_date, harvest_date, logo_url, category, difficulty, fun_fact|
+  Plant.create!(id: id, name: name, description: description, description_details: description_details, price: price, plant_date: plant_date, harvest_date: harvest_date, logo_url: logo_url, category: category, difficulty: difficulty, fun_fact: fun_fact)
 end
 
 puts "Creating Tasks"
