@@ -3,10 +3,8 @@
    <h2><%= @plant.name %></h2>
   </div>
     <div class="container3">
-
       <div class= "information_plant">
-
-        <p> <strong>Best to plant in :</strong>
+        <p><strong>Best to plant in :</strong>
           <table>
             <tr>
              <% @months.each do |month| %>
@@ -15,7 +13,7 @@
             </tr>
           </table>
         </p>
-        <p> <strong>Harvest in :</strong>
+        <p><strong>Harvest in :</strong>
           <table>
             <tr>
              <% @months.each do |month| %>
@@ -24,25 +22,36 @@
             </tr>
           </table>
         </p>
-
+        <p><strong>Difficulty :</strong>
+        </p>
+        <% if @plant.difficulty == 1 %>
+          <%= image_tag "sproutfull.png", height: '35' %>
+          <%= image_tag "sprout.png", height: '35' %>
+          <%= image_tag "sprout.png", height: '35' %>
+        <% elsif @plant.difficulty == 2 %>
+          <%= image_tag "sproutfull.png", height: '35' %>
+          <%= image_tag "sproutfull.png", height: '35' %>
+          <%= image_tag "sprout.png", height: '35' %>
+        <% else %>
+          <%= image_tag "sproutfull.png", height: '35' %>
+          <%= image_tag "sproutfull.png", height: '35' %>
+          <%= image_tag "sproutfull.png", height: '35' %>
+        <% end %>
       </div>
       <div class="image_and_button">
         <div class="image_show" style="background-image: url(<%= cl_image_path @plant.logo_url %>)">
         </div>
-
         <%= link_to plant_garden_plants_path(@plant), method: :post,class: "obtn" do %>
-
-
           Add to my personalized garden
         <% end %>
       </div>
     </div>
 
     <div class="plant_description">
-      <p> <strong>General info :</strong></p>
-       <p> <%= @plant.description %></p>
-       <p> <strong>Sowing information :</strong></p>
-        <p><%= @plant.description_details %></p>
+      <p><strong>General info :</strong></p>
+      <p><%= @plant.description %></p>
+      <p><strong>Sowing information :</strong></p>
+      <p><%= @plant.description_details %></p>
     </div>
 </div>
 
