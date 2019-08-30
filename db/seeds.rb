@@ -798,25 +798,31 @@ puts "Creating Tasks"
 
 tasks_list = [
   [ 1,
+    "Take out the weed around the spot where you will plant",
+    "1899092_mnahdg.svg"
+  ],
+  [ 1,
     "sow the beetroot seeds",
     "1899092_mnahdg.svg"
   ],
   [ 1,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "Water your beetroots daily until the leaves begin to come out, then only water them every 10-14 days.",
     "1899092_mnahdg.svg"
   ],
   [ 1,
-    "Hi, Don't forget to water your beetroots!",
+    "Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "1899092_mnahdg.svg"
+  ],
+
+  [ 1,
+    "Check if the beetroot plants need a thin (when there around 2 inches high) you just pinch them off.",
     "1899092_mnahdg.svg"
   ],
   [ 1,
-    "Hi, Check if the beetroot plants need a thin (when there around 2 inches high) you just pinch them off.",
+    "When you can start seeing the root, you will have a good idea of its size. The beetroots are ready to harvest when they are approximately the size of a small orange.",
     "1899092_mnahdg.svg"
   ],
-  [ 1,
-    "Take out the weed around the plant",
-    "1899092_mnahdg.svg"
-  ],
+
   [ 2,
     "sow the tomato seeds",
     "135702_sao20i.svg"
@@ -992,15 +998,27 @@ tasks_list = [
     "1515032_cm9a7g.svg"
   ],
   [ 15,
-    "sow the fig seeds",
+    "Choose a sunny spot to plant your fig tree, Make sure there aren’t any nearby trees or structures.",
     "1135552_wew42e.svg"
   ],
   [15,
-    "Hey, Give some water to your fig plant.",
+    "Mulch the soil around your fig tree with 3 inches of compost. The compost will help the soil around your fig tree retain water.",
     "1135552_wew42e.svg"
   ],
   [15,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.",
+    "Water your fig tree when the top 1 inch of soil is dry. Fig tree needs 3L of water with each watering.",
+    "1135552_wew42e.svg"
+  ],
+  [15,
+    "Put bird netting over your fig tree to prevent birds from eating your figs.",
+    "1135552_wew42e.svg"
+  ],
+  [15,
+    "Spray your fig tree with neem oil to get rid of fungus on your fig tree.",
+    "1135552_wew42e.svg"
+  ],
+  [15,
+    "Remove any leaves that show signs of having fungus.",
     "1135552_wew42e.svg"
   ],
   [ 16,
