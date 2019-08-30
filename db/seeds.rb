@@ -818,26 +818,65 @@ tasks_list = [
     "1899092_mnahdg.svg"
   ],
   [ 2,
-    "sow the tomato seeds",
+    "Obtain seedlings or seeds",
     "135702_sao20i.svg"
   ],
   [ 2,
-    "Hey there, give your tomato plant a bit of water!",
+    "Grow from pots or in a garden",
     "135702_sao20i.svg"
   ],
   [ 2,
-    "Hi, Don't forget to check for instects caterpillars, worms,.. you can just rinse them off.!",
+    "Choose a sunny location",
     "135702_sao20i.svg"
   ],
   [ 2,
-    " Hello, You should Remove the dead, diseased or just unnecessary leaves and stems from the tomato plant ",
+    "Buy mix or plant in fertile soil",
     "135702_sao20i.svg"
   ],
   [ 2,
-    "Take out the weed around the plant",
+    "Begin planting in warm weather",
     "135702_sao20i.svg"
   ],
-
+  [ 2,
+    "Make sure the pot has drainage",
+    "135702_sao20i.svg"
+  ],
+  [ 2,
+    "Fill in the potting mix",
+    "135702_sao20i.svg"
+  ],
+  [ 2,
+    "Dig a small hole into the mix or soil",
+    "135702_sao20i.svg"
+  ],
+  [ 2,
+    "Cover the hole",
+    "135702_sao20i.svg"
+  ],
+  [ 2,
+    "Obtain seedlings or seeds.",
+    "135702_sao20i.svg"
+  ],
+  [ 2,
+    "Water the plant regularly",
+    "135702_sao20i.svg"
+  ],
+  [ 2,
+    "Fertilize once a week",
+    "135702_sao20i.svg"
+  ],
+  [ 2,
+    "Prune when needed",
+    "135702_sao20i.svg"
+  ],
+  [ 2,
+    "Avoid pests and diseases",
+    "135702_sao20i.svg"
+  ],
+  [ 2,
+    "Harvest after about six to eight weeks",
+    "135702_sao20i.svg"
+  ],
   [ 3,
     "sow the chilli seeds",
     "135701_tgtimr.svg"
