@@ -2,39 +2,39 @@
   <h1>Today To Do list:</h1>
 
 
-<div class="tasks_container">
+  <div class="tasks_container">
 
 
-  <% @user_tasks_by_plant.each do |plant, user_tasks| %>
+    <% @user_tasks_by_plant.each do |plant, user_tasks| %>
 
-  <div class="task_container">
-    <div class="headertask">
-      <div class="log" style="background-image: url('<%= cl_image_path plant.logo_url %>')">
-      </div>
-      <h2><%= plant.name %></h2>
-
-    </div>
-
-
-    <ul>
-
-      <% user_tasks.each do |user_task| %>
-
-        <div class="task_plant" data-user-task-id="<%= user_task.id %>">
-          <li>
-            <p><%= user_task.task.description %></p>
-            <%= link_to user_task_mark_as_done_user_tasks_path(user_task), method: :put, remote: true, id: "#{user_task.id}" do %>
-                done
-            <% end %>
-          </li>
+    <div class="task_container">
+      <div class="headertask">
+        <div class="log" style="background-image: url('<%= cl_image_path plant.logo_url %>')">
         </div>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
+        <h2><%= plant.name %></h2>
 
+      </div>
+
+
+      <ul>
+
+        <% user_tasks.each do |user_task| %>
+
+          <div class="task_plant" data-user-task-id="<%= user_task.id %>">
+            <li>
+              <p><%= user_task.task.description %></p>
+              <%= link_to user_task_mark_as_done_user_tasks_path(user_task), method: :put, remote: true, id: "#{user_task.id}" do %>
+                  done
+              <% end %>
+            </li>
+          </div>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+  </div>
 </div>
-
 
 
 
