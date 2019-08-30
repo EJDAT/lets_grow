@@ -1,28 +1,27 @@
 .footer {
-  background: #EDF8D7;
+  background-color: #EDF8D7;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
   color: rgba(0,0,0,0.3);
-  position: fixed;
+  height: 100px;
+  padding: 0 50px;
   width: 100%;
-  bottom: 0;
 }
 
 .footer-links {
   display: flex;
   align-items: center;
 }
-.footer-links a {
-  color: #7EA323;
-  opacity: 0.15;
+
+.footer-links i {
+  color: rgba(0,0,0,0.3);
+  opacity: 0.5;
   text-decoration: none;
-  font-size: 25px;
-  padding: 0px 10px;
+  font-size: 35px;
+  margin: 0 10px;
 }
-.footer-links a:hover {
+.footer-links i:hover {
   opacity: 1;
 }
 .footer .fa-carrot {
@@ -30,6 +29,6 @@
   font-size: 30px;
 }
 
-.footer-copyright{
-  font-size: 20px;
+.fa-carrot {
+  display: inline !important;
 }

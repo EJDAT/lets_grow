@@ -61,8 +61,8 @@ plants_list = [
 
   [ 2,
     "Cherry tomatoes",
-    "Cherry tomatoes, are the easiest to grow out of all the tomatoes. The plant grows rapidly, so you will need to have something to support the vines once they begin to grow long. You can use either a tomato cage or wooden stakes.",
-    "a sunny, well-drained part of your garden is the best for your cherry tomatoes.",
+    "Cherry tomatoes, are the easiest to grow out of all the 🍅. The plant grows rapidly, so you will need to have something to support the vines once they begin to grow long. You can use either a tomato cage or wooden stakes.",
+    "a 🌞, well-drained part of your garden is the best for your cherry tomatoes.",
      4,
      {"jan": false,
     "feb": false,
@@ -100,8 +100,8 @@ plants_list = [
   [ 3,
 
     "Chilli Pepper",
-    "Chillies are not so difficult to grow but a lot of times people forget how sensitive they are when it comes to lack of water. If you want to add chillies to your garden make sure your chillies have plenty of water and never dry out.",
-    "Like most plants they grow better in rich soils and produce more fruit but if you use plenty of mulch and compost in your garden the chillies will grow just fine.",
+    "🌶️ are not so difficult to grow but a lot of times people forget how sensitive they are when it comes to lack of water. If you want to add 🌶️ to your garden make sure your 🌶️ have plenty of 💦 and never dry out.",
+    "Like most plants they grow better in rich soils and produce more fruit but if you use plenty of mulch and compost in your garden the 🌶️ will grow just fine.",
     5,
 
     {"jan": false,
@@ -134,14 +134,14 @@ plants_list = [
     "135701_tgtimr.svg",
     "vegetable",
     2,
-    "Chili peppers release feel-good endorphins and dopamine, because your brain interprets the burn from hot peppers as pain, which can ultimately result in a sense of euphoria similar to a “runner’s high."
+    "🌶️ release feel-good endorphins and dopamine, because your brain interprets the burn from hot peppers as pain, which can ultimately result in a sense of euphoria similar to a “runner’s high."
     ],
 
   [ 4,
 
     "Fennel",
-    "Did you know that fennel is both a vegetable and an herb, depending on which variety you grow. it's also very easy to grow!",
-    "Fennel needs a location with full sun that is close to a water source. The soil should be organically rich and on the acidic side, so amend it with compost if necessary.",
+    "Fennel is both a vegetable and an herb, depending on which variety you grow. it's also very easy to grow!",
+    "Fennel needs a location with full 🌞 that is close to a water source. The soil should be organically rich and on the acidic side, so amend it with compost if necessary.",
     2,
 
     {"jan": false,
@@ -180,7 +180,7 @@ plants_list = [
 
     "Leek",
     "Leeks are a flavoursome winter vegetable and not so difficult to take care of. They also don’t require much room in the garden.",
-    "sunny spot in the soil that is rich and well-drained.",
+    "🌞 spot in the soil that is rich and well-drained.",
     1,
     {"jan": false,
     "feb": false,
@@ -219,8 +219,8 @@ plants_list = [
 
     "Pumpkin",
     "Pumpkins are not difficult to grow. They do best when the seeds are planted directly in the ground.",
-    "The pumkin is one of those veggies that prefers full sun but could do with partial shade.
-    They have deep roots and are normally quite capable of finding their own water within the soil, but in very dry periods some supplementary watering may be required.
+    "The pumkin is one of those veggies that prefers full 🌞 but could do with partial shade.
+    They have deep roots and are normally quite capable of finding their own water within the soil, but in very dry periods some supplementary 💦 may be required.
     Keep in mind that a pumkin need a ",
     4,
     {"jan": false,
@@ -299,6 +299,7 @@ plants_list = [
     "Bell Pepper",
     "Bell Peppers are a breeze to grow. They are a chock-full of good flavor and nutrition.",
     "Pepper plants require full sun to produce nice fruits. The soil should be well-draining and rich in organic matter. ",
+
     3,
     {"jan": false,
     "feb": false,
@@ -340,6 +341,7 @@ plants_list = [
     "Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
     "Strawberries love sunlight and need full sun to produce the largest yields.
     Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+
     4,
     {"jan": false,
     "feb": false,
@@ -492,8 +494,8 @@ plants_list = [
   [ 13,
 
     "Carrot",
-    "carrots are one of the easiest vegetables to grow in the cooler climates.",
-    "Carrots need very fine soil without any large stones or obstacles. The soil should be light and sandy if possible and not recently manured. Carrots are bad competitors with weeds so you want as weed free an environment as possible. ",
+    "🥕 are one of the easiest vegetables to grow in the cooler climates.",
+    "🥕 need very fine soil without any large stones or obstacles. The soil should be light and sandy if possible and not recently manured. 🥕 are bad competitors with weeds so you want as weed free an environment as possible. ",
     2,
     {"jan": false,
     "feb": false,
@@ -524,7 +526,7 @@ plants_list = [
     "135687_xauv3b.svg",
     "vegetable",
     2,
-    "Carrots were originally white or purple. Then a yellow carrot appeared through mutation and the familiar orange carrot was bred from it."
+    "🥕 were originally white or purple. Then a yellow 🥕 appeared through mutation and the familiar 🥕 was bred from it."
     ],
 
     [ 14,
@@ -636,6 +638,7 @@ plants_list = [
       "fruit",
       1,
       "Apples contain high levels of boron, which stimulates electrical activity of the brain and increases mental alertness.",
+
       ],
 
       [ 17,
@@ -672,7 +675,7 @@ plants_list = [
       "765560_nlkfgs",
       "fruit",
       1,
-      "Grapes are used to help cure asthma, indigestion, migraine, kidnеy disease and fatigue.",
+      "🍇 are used to help cure asthma, indigestion, migraine, kidnеy disease and fatigue.",
       ],
 
       [ 18,
@@ -747,6 +750,7 @@ plants_list = [
       "fruit",
       2,
       "Cherries contain melatonin which helps to fight against harmful toxins. These fruits also contain a high level of antioxidants which are beneficial to the human body."
+
       ],
       [ 20,
       "Apricot",
@@ -782,7 +786,7 @@ plants_list = [
       "1135558_sukyb5.svg",
       "fruit",
       2,
-      "Apricots are rich in soluble fiber, which helps with digestion of food, prevents constipation and several gastrointestinal disorders."
+      "🍑 are rich in soluble fiber, which helps with digestion of food, prevents constipation and several gastrointestinal disorders."
       ]
 ]
 

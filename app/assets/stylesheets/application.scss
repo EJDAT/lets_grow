@@ -11,9 +11,6 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
-@import "components/garden";
-//@import "components/footer";
-@import "components/container-home";
 
 h1, h2, h3, h4, h5, h6{
   font-family: 'Karla', sans-serif;
@@ -22,6 +19,9 @@ p {
 font-family: 'Montserrat', sans-serif;
 }
 
-body {
-  background-color: #CEFFC8;
+.layoutcontainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 100vh;
 }
