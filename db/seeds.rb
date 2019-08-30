@@ -297,8 +297,9 @@ plants_list = [
   [ 8,
 
     "Bell Pepper",
-    "Peppers are a breeze to grow. They are a chock-full of good flavor and nutrition.",
-    "Pepper plants require full 🌞 to produce nice fruits. The soil should be well-draining and rich in organic matter. ",
+    "Bell Peppers are a breeze to grow. They are a chock-full of good flavor and nutrition.",
+    "Pepper plants require full sun to produce nice fruits. The soil should be well-draining and rich in organic matter. ",
+
     3,
     {"jan": false,
     "feb": false,
@@ -337,9 +338,10 @@ plants_list = [
   [ 9,
 
     "Strawberry",
-    "🍓 are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
-    "🍓 love sunlight and need full 🌞 to produce the largest yields.
-    🍓 plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your 🍓. ",
+    "Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
+    "Strawberries love sunlight and need full sun to produce the largest yields.
+    Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+
     4,
     {"jan": false,
     "feb": false,
@@ -529,9 +531,8 @@ plants_list = [
 
     [ 14,
       "Raspberry",
-      "Raspberry are not that easy to grow aspeciallyStrawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
-      "Strawberries love sunlight and need full sun to produce the largest yields.
-      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      "Raspberry are not that easy to grow. trawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
+      "They like well drained soil and full sun for maximum berry production. They prefer full sun and sandy loam soils rich in organic matter. Avoid planting raspberries in low lying areas that remain wet late into spring. Their roots will rot and the plant will suffer.",
       4,
       {"jan": false,
       "feb": false,
@@ -567,9 +568,8 @@ plants_list = [
 
       [ 15,
       "Fig",
-      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
-      "Strawberries love sunlight and need full sun to produce the largest yields.
-      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      "Fig trees aren’t difficult to grow, but they can pose a challenge if you don’t plant them in the right conditions or give them enough water. ",
+      "Fig trees need a lot of direct sunlight to thrive. Pick any spot in your yard that gets year-round sunlight. Make sure there aren’t any nearby trees or structures that will block the sun from reaching your fig tree.",
       4,
       {"jan": false,
       "feb": false,
@@ -605,20 +605,19 @@ plants_list = [
 
       [ 16,
       "Apple",
-      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
-      "Strawberries love sunlight and need full sun to produce the largest yields.
-      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      "Apples are probably the easiest tree fruit to grow and the most popular with gardeners. There are thousands of different types of apples, but they broadly fall into two categories: dessert apples for eating, and cookers, as the name suggest, for cooking. Some are dual-purpose, so suitable for both uses.",
+      "Choose a sunny site. For best fruiting, an apple tree needs “full sunlight,” which means six or more hours of direct summer sun daily. The best exposure for apples is a north- or east-facing slope.",
       4,
       {"jan": false,
       "feb": false,
       "mar": false,
-      "apr": false,
-      "may": false,
-      "jun": false,
+      "apr": true,
+      "may": true,
+      "jun": true,
       "jul": false,
       "aug": false,
-      "sep": true,
-      "oct": true,
+      "sep": false,
+      "oct": false,
       "nov": false,
       "dec": false,
       },
@@ -627,25 +626,25 @@ plants_list = [
       "mar": false,
       "apr": false,
       "may": false,
-      "jun": true,
-      "jul": true,
-      "aug": false,
-      "sep": false,
-      "oct": false,
+      "jun": false,
+      "jul": false,
+      "aug": true,
+      "sep": true,
+      "oct": true,
       "nov": false,
       "dec": false,
       },
       "415733_ni1dlw.svg",
       "fruit",
-      2,
-      "🍎 contain high levels of boron, which stimulates electrical activity of the brain and increases mental alertness.",
+      1,
+      "Apples contain high levels of boron, which stimulates electrical activity of the brain and increases mental alertness.",
+
       ],
 
       [ 17,
       "Grapes",
-      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
-      "Strawberries love sunlight and need full sun to produce the largest yields.
-      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      "It is not difficult to grow grapes, but you do need the very right spot. Besides the deliciousness of grapes they also add a wonderfull look to your garden.",
+      "They need a south-facing wall where the soil is well drained. It is also worth growing grapes on a free-standing trellis, pergola or gazebo if you have a very sheltered, sunny spot. ",
       4,
       {"jan": false,
       "feb": false,
@@ -673,8 +672,7 @@ plants_list = [
       "nov": false,
       "dec": false,
       },
-
-      "415733_ni1dlw.svg",
+      "765560_nlkfgs",
       "fruit",
       1,
       "🍇 are used to help cure asthma, indigestion, migraine, kidnеy disease and fatigue.",
@@ -682,9 +680,8 @@ plants_list = [
 
       [ 18,
       "Blueberry",
-      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
-      "Strawberries love sunlight and need full sun to produce the largest yields.
-      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      "Blueberries are easy to grow in a home garden and yield abundant sweet, delicious, and colorful berries.",
+      "Plant blueberries in compost-rich soil that is well draining.",
       4,
       {"jan": false,
       "feb": false,
@@ -720,9 +717,8 @@ plants_list = [
 
       [ 19,
       "Cherry",
-      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
-      "Strawberries love sunlight and need full sun to produce the largest yields.
-      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      "Cherry trees are a sight to behold in the spring, when they’re covered in white or pink blossoms. After that, they produce the delicious cherries most people know and love.",
+      "Plant in a sunny site with good air circulation. Avoid planting near trees or buildings that shade. Cherry trees need deep, well-drained soil. ",
       4,
       {"jan": false,
       "feb": false,
@@ -753,13 +749,13 @@ plants_list = [
       "135695_fberyn.svg",
       "fruit",
       2,
-      "🍒 contain melatonin which helps to fight against harmful toxins. These fruits also contain a high level of antioxidants which are beneficial to the human body"
+      "Cherries contain melatonin which helps to fight against harmful toxins. These fruits also contain a high level of antioxidants which are beneficial to the human body."
+
       ],
       [ 20,
       "Apricot",
-      " Strawberries are one of the most popular grown in own garden fruits! They are super easy to grow and don't need a lot of space.",
-      "Strawberries love sunlight and need full sun to produce the largest yields.
-      Strawberry plants need constant moisture to thrive, the plants will rot if left in standing water due to poor site drainage. So chose the right place for your strawberries. ",
+      "Apricot tree care isn’t too terribly difficult. And they are  are self-fruiting. This means that they do not require more than one tree for pollination, so you can plant several trees in a larger area on your property, or you can have just one apricot tree growing in your yard.",
+      "They are heat sensitive, so you don’t want them out in the middle of a field in the sun.",
       4,
       {"jan": false,
       "feb": false,
