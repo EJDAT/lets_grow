@@ -53,7 +53,9 @@
        <p> <%= @plant.description %></p>
        <p> <strong>Sowing information :</strong></p>
         <p><%= @plant.description_details %></p>
-       <p><span>&#x1F62E</span> <%= @plant.fun_fact %></p>
+        <div class="fun_fact">
+       <span>&#x1F62E</span><p>"<%= @plant.fun_fact %>"</p>
+       </div>
     </div>
 </div>
 
