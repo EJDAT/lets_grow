@@ -99,11 +99,12 @@ span{
 
 .fun_fact{
   display: flex;
-  text-align: space around;
+  text-align: left;
   background-color: #3D885B;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
+  align-items: center;
 }
 .fun_fact p{
 font-style: italic;
