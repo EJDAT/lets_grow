@@ -1,82 +1,84 @@
+<div class="containerhome">
+    <div class="inner-container">
+      <div class="inner-intro">
+        <h2 class="focus-in-expand"> Learn how to garden!</h2>
+        <p> Keep track of your garden online</p>
+        <div class="action">
+             <%= link_to plants_path, {class: "obbtn"} do %>
+               Start to plant!
+             <% end %>
+        </div>
+      </div>
+    </div>
 
-  <div class="inner-container">
-    <div class="inner-intro">
-      <h2 class="focus-in-expand"> Learn how to garden!</h2>
-      <p> Keep track of your garden online</p>
-      <div class="action">
-           <%= link_to plants_path, {class: "obbtn"} do %>
-             Start to plant!
-           <% end %>
+
+
+  <div id="carouselSlides" class="carousel" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(20).logo_url%>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(13).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(14).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(5).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(18).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(17).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(15).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(11).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(6).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(9).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(10).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(11).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(12).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(13).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(14).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(15).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(16).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(17).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(18).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(19).logo_url %>' width="600" style = "padding: 100px;">
+      </div>
+      <div class="carousel-item">
+        <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(20).logo_url %>' width="600" style = "padding: 100px;">
       </div>
     </div>
   </div>
 
-
-
-<div id="carouselSlides" class="carousel" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(20).logo_url%>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(13).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(14).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(5).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(18).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(17).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(15).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(11).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(6).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(9).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(10).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(11).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(12).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(13).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(14).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(15).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(16).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(17).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(18).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(19).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-    <div class="carousel-item">
-      <img class="d-flex bounce-in-top" src='<%= cl_image_path Plant.find(20).logo_url %>' width="600" style = "padding: 100px;">
-    </div>
-  </div>
 </div>

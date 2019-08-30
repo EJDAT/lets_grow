@@ -6,8 +6,6 @@
   color: rgba(0,0,0,0.3);
   height: 100px;
   padding: 0 50px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 
@@ -16,14 +14,14 @@
   align-items: center;
 }
 
-.footer-links a {
-  color: #7EA323;
-  opacity: 0.15;
+.footer-links i {
+  color: rgba(0,0,0,0.3);
+  opacity: 0.5;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 35px;
   margin: 0 10px;
 }
-.footer-links a:hover {
+.footer-links i:hover {
   opacity: 1;
 }
 .footer .fa-carrot {

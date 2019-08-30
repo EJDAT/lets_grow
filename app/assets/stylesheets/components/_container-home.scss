@@ -1,9 +1,7 @@
 .containerhome{
-  background-image: image-url("background.png");
-  background-size: cover;
-  background-position: bottom;
-  width: 100%;
-  min-width: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  height: calc(100vh - 100px);
 }
 
 .inner-intro{
@@ -29,14 +27,11 @@
   display: flex;
   justify-content: center;
   color: white;
-  position: absolute;
-  bottom: 20%;
-  right: 15%;
 }
 
 .carousel-inner {
   width: 100%;
-  overflow: hidden;
+  overflow: hidden; padding-top: 150px;
 }
 
 .focus-in-expand {
