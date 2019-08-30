@@ -14,10 +14,10 @@
 
 .task_container {
   border-radius: 5px;
-  margin: 0 auto;
   width: 500px;
   margin-bottom: 20px;
   background-color:#65B891;
+  margin: 0 auto;
 }
 
 ul {
@@ -72,7 +72,7 @@ i {
 }
 
 .task_plant li p {
-  max-width: 380px;
+  max-width: 350px;
 }
 .headertask {
   display: flex;
@@ -83,5 +83,19 @@ i {
 
 .main_container {
   min-height: calc(100vh - 100px);
+}
+
+.check {
+  background-color: #FF6666;
+  border-radius: 5px;
+  padding:10px;
+  color: white;
+}
+
+.check:hover {
+  color: white;
+  background-color: #468315;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+  text-decoration: none;
 }
 
